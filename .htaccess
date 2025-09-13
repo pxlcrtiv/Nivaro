@@ -1,0 +1,34 @@
+# Turn off directory indexing
+Options -Indexes
+
+# Critical: Disable directory slash to prevent redirecting to directories
+DirectorySlash Off
+
+# Required for mod_rewrite to work
+Options +FollowSymLinks
+
+# Enable URL rewriting
+RewriteEngine On
+
+# Base path (adjust if your site is in a subdirectory)
+RewriteBase /
+
+# Rule 1: Explicitly prioritize HTML files when both file and directory exist
+RewriteCond %{REQUEST_URI} ^/([^/]+)/?$  # Matches /careers or /careers/
+RewriteCond %{DOCUMENT_ROOT}/%1.html -f  # Check if careers.html exists
+RewriteRule ^([^/]+)/?$ /$1.html [L]     # Serve HTML file instead of directory
+
+# Rule 2: Handle nested paths similarly (like /careers/en-US)
+RewriteCond %{REQUEST_URI} ^/([^/]+)/([^/]+)/?$ 
+RewriteCond %{DOCUMENT_ROOT}/%1/%2.html -f
+RewriteRule ^([^/]+)/([^/]+)/?$ /$1/$2.html [L]
+
+# Rule 3: For extension-less URLs, add .html extension
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !\.(css|js|png|jpg|gif|svg|ico)$
+RewriteRule ^(.*)$ $1.html [L]
+
+# Rule 4: Make sure CSS and JS files load correctly
+RewriteRule ^_next/(.*)$ /_next/$1 [L]
+RewriteRule ^assets/(.*)$ /assets/$1 [L]
