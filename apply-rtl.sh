@@ -22,7 +22,7 @@ find . -name "*.html" -type f | while read file; do
         cp "$file" "$file.bak"
         
         # Add RTL CSS link and set language/direction
-        sed -i '' 's/<html lang="en">/<html lang="he" dir="rtl">/g' "$file"
+        sed -i '' 's/<html lang="en" dir="rtl">/<html lang="he" dir="rtl">/g' "$file"
         sed -i '' 's/<html>/<html lang="he" dir="rtl">/g' "$file"
         
         # Add RTL CSS after existing stylesheets
