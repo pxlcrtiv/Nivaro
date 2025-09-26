@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum NIVARO Transformation</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+        
+        .quantum-container {
+            text-align: center;
+            animation: quantum-float 3s ease-in-out infinite;
+        }
+        
+        .quantum-title {
+            color: white;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            text-shadow: 0 0 20px rgba(255,255,255,0.5);
+        }
+        
+        .quantum-svg {
+            filter: drop-shadow(0 0 30px rgba(255,255,255,0.3));
+            animation: quantum-glow 2s ease-in-out infinite alternate;
+        }
+        
+        @keyframes quantum-float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        @keyframes quantum-glow {
+            0% { filter: drop-shadow(0 0 30px rgba(255,255,255,0.3)); }
+            100% { filter: drop-shadow(0 0 50px rgba(255,255,255,0.6)); }
+        }
+        
+        .quantum-particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(255,255,255,0.8);
+            border-radius: 50%;
+            animation: particle-float 6s linear infinite;
+        }
+        
+        @keyframes particle-float {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-100vh) rotate(360deg); opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="quantum-particles" id="particles"></div>
+    
+    <div class="quantum-container">
+        <h1 class="quantum-title">⚛️ Quantum NIVARO Transformation</h1>
+        
+        <!-- Quantum NIVARO SVG -->
+        <svg class="quantum-svg" width="500" height="134" viewBox="0 0 500 134" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <!-- Quantum Gradients for NIVARO -->
+                <linearGradient id="quantumN" x1="31.75" y1="21.8788" x2="31.75" y2="186.207" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#667eea"></stop>
+                    <stop offset="1" stop-color="#764ba2"></stop>
+                </linearGradient>
+                <linearGradient id="quantumI" x1="47.55" y1="21.9296" x2="47.55" y2="186.258" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#f093fb"></stop>
+                    <stop offset="1" stop-color="#f5576c"></stop>
+                </linearGradient>
+                <linearGradient id="quantumV" x1="117.8" y1="21.8788" x2="117.8" y2="186.207" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#4facfe"></stop>
+                    <stop offset="1" stop-color="#00f2fe"></stop>
+                </linearGradient>
+                <linearGradient id="quantumA" x1="192.5" y1="21.8788" x2="192.5" y2="186.207" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#43e97b"></stop>
+                    <stop offset="1" stop-color="#38f9d7"></stop>
+                </linearGradient>
+                <linearGradient id="quantumR" x1="272.5" y1="21.7159" x2="272.5" y2="226.459" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#fa709a"></stop>
+                    <stop offset="1" stop-color="#fee140"></stop>
+                </linearGradient>
+                <linearGradient id="quantumO" x1="380" y1="67.1744" x2="380" y2="186.207" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#a8edea"></stop>
+                    <stop offset="1" stop-color="#fed6e3"></stop>
+                </linearGradient>
+            </defs>
+            
+            <g>
+                <!-- Quantum N - First letter of NIVARO -->
+                <path id="quantum-n" 
+                    d="M0 22.5488V111.799H33.2V104.549L6.8998 104.499L13.4998 102.849V31.5988L6.7998 29.8488H56.9L50.3 31.5488V111.799H63.5V22.5488H0Z"
+                    fill="url(#quantumN)">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+                </path>
+                
+                <!-- Quantum I - Second letter of NIVARO -->
+                <g id="quantum-i">
+                    <path d="M63.25 0.599609H50.05V13.7996H63.25V0.599609Z" fill="url(#quantumI)">
+                        <animate attributeName="opacity" values="0;1" dur="1s" begin="0.2s" fill="freeze"/>
+                    </path>
+                    <path d="M31.75 22.5496L31.7 29.8496H56.75L50.15 31.5496V102.85L56.75 104.5H31.75L31.7 111.8H63.35V22.5496H31.75Z" fill="url(#quantumI)">
+                        <animate attributeName="opacity" values="0;1" dur="1s" begin="0.2s" fill="freeze"/>
+                    </path>
+                </g>
+                
+                <!-- Quantum V - Third letter of NIVARO -->
+                <path id="quantum-v"
+                    d="M85.2998 22.5488L110.2998 111.799H125.2998L150.2998 22.5488H135.2998L117.7998 85.2998L100.2998 22.5488H85.2998Z"
+                    fill="url(#quantumV)">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.4s" fill="freeze"/>
+                </path>
+                
+                <!-- Quantum A - Fourth letter of NIVARO -->
+                <path id="quantum-a"
+                    d="M180 22.5488L155 111.799H170L185 55.0998L200 111.799H215L190 22.5488H180ZM187.5 75.2998L192.5 55.0998L197.5 75.2998H187.5Z"
+                    fill="url(#quantumA)">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.6s" fill="freeze"/>
+                </path>
+                
+                <!-- Quantum R - Fifth letter of NIVARO -->
+                <path id="quantum-r"
+                    d="M240 22.5488V111.799H270V85.2998L285 111.799H305L285 80.2998C295 75.7998 302.5 65.2998 302.5 50.7998C302.5 32.7998 288.5 22.5488 270 22.5488H240ZM270 35.0998C282.5 35.0998 287.5 41.7998 287.5 50.7998C287.5 59.7998 282.5 66.4998 270 66.4998V35.0998Z"
+                    fill="url(#quantumR)">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="0.8s" fill="freeze"/>
+                </path>
+                
+                <!-- Quantum O - Sixth letter of NIVARO -->
+                <path id="quantum-o"
+                    d="M340 67.1744C340 89.6744 355 111.799 380 111.799C405 111.799 420 89.6744 420 67.1744C420 44.6744 405 22.5494 380 22.5494C355 22.5494 340 44.6744 340 67.1744ZM405 67.1744C405 82.6744 393.75 97.2994 380 97.2994C366.25 97.2994 355 82.6744 355 67.1744C355 51.6744 366.25 37.0494 380 37.0494C393.75 37.0494 405 51.6744 405 67.1744Z"
+                    fill="url(#quantumO)">
+                    <animate attributeName="opacity" values="0;1" dur="1s" begin="1.0s" fill="freeze"/>
+                </path>
+            </g>
+        </svg>
+        
+        <p style="color: white; margin-top: 2rem; font-size: 1.2rem; opacity: 0.8;">
+            ✨ Quantum transformation complete: ENGINE → NIVARO
+        </p>
+    </div>
+    
+    <script>
+        // Quantum particle system
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 6 + 's';
+            particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
+            return particle;
+        }
+        
+        // Initialize quantum particles
+        const particlesContainer = document.getElementById('particles');
+        for (let i = 0; i < 50; i++) {
+            particlesContainer.appendChild(createParticle());
+        }
+        
+        // Continuous particle generation
+        setInterval(() => {
+            if (particlesContainer.children.length < 100) {
+                particlesContainer.appendChild(createParticle());
+            }
+        }, 200);
+        
+        // Clean up old particles
+        setInterval(() => {
+            const particles = particlesContainer.querySelectorAll('.particle');
+            particles.forEach(particle => {
+                const rect = particle.getBoundingClientRect();
+                if (rect.top < -100) {
+                    particle.remove();
+                }
+            });
+        }, 1000);
+    </script>
+</body>
+</html>
