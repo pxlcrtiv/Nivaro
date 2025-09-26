@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔮 Quantum RTL System - Nivaro Hebrew Demo</title>
+    <meta name="description" content="Demonstration of quantum-level RTL transformations for Nivaro Hebrew website">
+    
+    <!-- Quantum RTL Stylesheets -->
+    <link rel="stylesheet" href="rtl.css">
+    <link rel="stylesheet" href="quantum-rtl.css">
+    
+    <!-- Hebrew Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arial+Hebrew:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Demo-specific styles */
+        body {
+            font-family: 'Rubik', 'Arial Hebrew', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        
+        .demo-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .quantum-header {
+            text-align: center;
+            margin-bottom: 3rem;
+            position: relative;
+        }
+        
+        .quantum-title {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, #00d4ff, #ff6b6b, #4ecdc4);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+            animation: quantum-glow 3s ease-in-out infinite alternate;
+        }
+        
+        @keyframes quantum-glow {
+            0% { filter: drop-shadow(0 0 20px rgba(0, 212, 255, 0.5)); }
+            100% { filter: drop-shadow(0 0 40px rgba(255, 107, 107, 0.8)); }
+        }
+        
+        .quantum-subtitle {
+            font-size: 1.2rem;
+            color: #b8b8b8;
+            margin-bottom: 2rem;
+        }
+        
+        .demo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .demo-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .demo-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #00d4ff, #ff6b6b, #4ecdc4);
+            transform: translateX(-100%);
+            transition: transform 0.6s ease;
+        }
+        
+        .demo-card:hover::before {
+            transform: translateX(0);
+        }
+        
+        .demo-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 212, 255, 0.2);
+        }
+        
+        .demo-card h3 {
+            color: #00d4ff;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .demo-card p {
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        
+        .demo-button {
+            background: linear-gradient(45deg, #00d4ff, #0099cc);
+            border: none;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            cursor: pointer;
+            font-family: inherit;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            margin: 0.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .demo-button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        .demo-button:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        .demo-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(0, 212, 255, 0.4);
+        }
+        
+        .hebrew-text {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            direction: rtl;
+            text-align: right;
+        }
+        
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .feature-list li {
+            padding: 0.5rem 0;
+            position: relative;
+            padding-right: 2rem;
+        }
+        
+        .feature-list li::before {
+            content: '⚛️';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
+        .quantum-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .stat-item {
+            background: rgba(0, 212, 255, 0.1);
+            border: 1px solid rgba(0, 212, 255, 0.3);
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #00d4ff;
+            display: block;
+        }
+        
+        .stat-label {
+            color: #b8b8b8;
+            font-size: 0.9rem;
+        }
+        
+        .interactive-demo {
+            background: rgba(255, 255, 255, 0.03);
+            border: 2px dashed rgba(0, 212, 255, 0.5);
+            border-radius: 20px;
+            padding: 3rem;
+            margin: 2rem 0;
+            text-align: center;
+            position: relative;
+        }
+        
+        .interactive-demo::before {
+            content: '⚛️';
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            background: #00d4ff;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+        
+        .demo-input {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 1rem;
+            color: white;
+            font-family: inherit;
+            width: 100%;
+            margin: 1rem 0;
+            direction: rtl;
+            text-align: right;
+        }
+        
+        .demo-input::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .demo-input:focus {
+            outline: none;
+            border-color: #00d4ff;
+            box-shadow: 0 0 20px rgba(0, 212, 255, 0.3);
+        }
+        
+        .quantum-particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: #00d4ff;
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); opacity: 0.7; }
+            50% { transform: translateY(-20px) rotate(180deg); opacity: 1; }
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            margin-top: 4rem;
+        }
+        
+        .footer p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.9rem;
+        }
+        
+        @media (max-width: 768px) {
+            .quantum-title {
+                font-size: 2rem;
+            }
+            
+            .demo-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .demo-container {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Quantum Particles Background -->
+    <div class="quantum-particles" id="particles"></div>
+    
+    <div class="demo-container">
+        <!-- Header -->
+        <div class="quantum-header">
+            <h1 class="quantum-title">🔮 Quantum RTL System</h1>
+            <p class="quantum-subtitle">חוויית שימוש בטכנולוגיית קוונטום לשיפור ה-RTL של אתר ניבארו</p>
+            
+            <div class="quantum-stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="transformed-count">0</span>
+                    <span class="stat-label">אלמנטים שטופלו</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="measurements-count">0</span>
+                    <span class="stat-label">מדידות קוונטיות</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="intensity-level">60</span>
+                    <span class="stat-label">עוצמת טרנספורמציה</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="uptime">0</span>
+                    <span class="stat-label">זמן פעילות (שניות)</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Demo Grid -->
+        <div class="demo-grid">
+            <div class="demo-card" data-quantum-target="true">
+                <h3>⚡ טרנספורמציה קוונטית</h3>
+                <p class="hebrew-text">
+                    המערכת שלנו משתמשת בטכנולוגיית קוונטום מתקדמת לביצוע טרנספורמציות RTL ברמת הננו. 
+                    כל אלמנט מטופל באופן ייחודי עם התאמה מדויקת לצרכים שלו.
+                </p>
+                <ul class="feature-list">
+                    <li>טיפול ברמת האלמנט</li>
+                    <li>זיהוי אוטומטי של עברית</li>
+                    <li>התאמה דינמית לתוכן</li>
+                    <li>ביצועים מיטביים</li>
+                </ul>
+                <button class="demo-button" onclick="transformThisCard(this)">הפעל טרנספורמציה</button>
+            </div>
+            
+            <div class="demo-card" data-quantum-target="true">
+                <h3>📊 מדידות קוונטיות</h3>
+                <p class="hebrew-text">
+                    מערכת המדידה שלנו מספקת מידע מפורט על כל טרנספורמציה. 
+                    תוכלו לראות את השינויים בזמן אמת עם נתונים מדויקים.
+                </p>
+                <ul class="feature-list">
+                    <li>מדידה בזמן אמת</li>
+                    <li>ויזואליזציה מתקדמת</li>
+                    <li>ניתוח ביצועים</li>
+                    <li>דוחות מפורטים</li>
+                </ul>
+                <button class="demo-button" onclick="startMeasurement(this)">התחל מדידה</button>
+            </div>
+            
+            <div class="demo-card" data-quantum-target="true">
+                <h3>🎛️ לוח בקרה אינטראקטיבי</h3>
+                <p class="hebrew-text">
+                    שלוט במערכת עם לוח בקרה מתקדם. 
+                    התאם את העוצמה, המהירות, והאפקטים לפי הצורך שלך.
+                </p>
+                <ul class="feature-list">
+                    <li>בקרה מלאה על הטרנספורמציה</li>
+                    <li>הגדרות מוגדרות מראש</li>
+                    <li>קיצורי מקלדת</li>
+                    <li>שמירת העדפות</li>
+                </ul>
+                <button class="demo-button" onclick="openControlPanel()">פתח לוח בקרה</button>
+            </div>
+            
+            <div class="demo-card" data-quantum-target="true">
+                <h3>🧪 מצבי פעולה שונים</h3>
+                <p class="hebrew-text">
+                    בחר מבין מספר מצבי פעולה: עדין, מאוזן, אגרסיבי, או מותאם לעברית. 
+                    כל מצב מספק חוויית משתמש שונה.
+                </p>
+                <div style="margin: 1rem 0;">
+                    <button class="demo-button" onclick="applyPreset('gentle')">עדין</button>
+                    <button class="demo-button" onclick="applyPreset('balanced')">מאוזן</button>
+                    <button class="demo-button" onclick="applyPreset('aggressive')">אגרסיבי</button>
+                    <button class="demo-button" onclick="applyPreset('hebrew')">עברית</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Interactive Demo -->
+        <div class="interactive-demo" data-quantum-target="true">
+            <h3>🎯 אזור אינטראקטיבי</h3>
+            <p class="hebrew-text">הקלד טקסט בעברית או אנגלית וראה איך המערכת מגיבה:</p>
+            <input type="text" class="demo-input" placeholder="הקלד כאן..." oninput="handleInputChange(this)">
+            <div id="input-result" style="margin-top: 1rem; min-height: 2rem;"></div>
+            <button class="demo-button" onclick="analyzeText()">נתח טקסט</button>
+            <button class="demo-button" onclick="transformInput()">הפעל טרנספורמציה</button>
+        </div>
+        
+        <!-- Hebrew Content Examples -->
+        <div class="demo-card" data-quantum-target="true">
+            <h3>📝 דוגמאות תוכן עברי</h3>
+            <div class="hebrew-text">
+                <p><strong>כותרת ראשית:</strong> ניבארו - סוכנות העיצוב המובילה בישראל</p>
+                <p><strong>תיאור שירות:</strong> אנחנו מתמחים ביצירת חוויות משתמש מדהימות שמשלבות עיצוב חדשני עם טכנולוגיה מתקדמת.</p>
+                <p><strong>מידע טכני:</strong> הצוות שלנו כולל מעצבי UI/UX, מפתחי frontend, ומומחי נוירומרקטינג שעובדים יחד כדי ליצור מוצרים דיגיטליים שאנשים אוהבים להשתמש בהם.</p>
+                <p><strong>פרטי התקשרות:</strong> טלפון: 03-1234567 | אימייל: info@nivaro.co.il | כתובת: תל אביב, ישראל</p>
+            </div>
+            <button class="demo-button" onclick="transformHebrewContent(this)">הפעל טרנספורמציה על התוכן</button>
+        </div>
+        
+        <!-- Performance Stats -->
+        <div class="demo-card">
+            <h3>📈 סטטיסטיקות ביצועים</h3>
+            <div class="quantum-stats">
+                <div class="stat-item">
+                    <span class="stat-number" id="avg-transform-time">0</span>
+                    <span class="stat-label">זמן טרנספורמציה ממוצע (מילישניות)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="memory-usage">0</span>
+                    <span class="stat-label">שימוש בזיכרון (MB)</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="observer-calls">0</span>
+                    <span class="stat-label">קריאות observer</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="error-count">0</span>
+                    <span class="stat-label">שגיאות</span>
+                </div>
+            </div>
+            <button class="demo-button" onclick="refreshStats()">רענן סטטיסטיקות</button>
+            <button class="demo-button" onclick="exportReport()">ייצא דוח</button>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p>🔮 Quantum RTL System v1.0.0 | Nivaro Hebrew Website | פותח עם 💙 וטכנולוגיית קוונטום</p>
+            <p style="margin-top: 1rem;">
+                <small>לחץ Ctrl+Shift+Q לפתיחת/סגירת לוח בקרה | Ctrl+Shift+M להפעלת/כיבוי מדידה | Ctrl+Shift+R לאיפוס טרנספורמציות</small>
+            </p>
+        </div>
+    </div>
+    
+    <!-- Quantum RTL Scripts -->
+    <script src="quantum-rtl-config.js"></script>
+    <script src="quantum-rtl.js"></script>
+    <script src="quantum-measurer.js"></script>
+    <script src="quantum-control-panel.js"></script>
+    <script src="quantum-rtl-integration.js"></script>
+    
+    <script>
+        // Global variables
+        let quantumRTL;
+        let startTime = Date.now();
+        let stats = {
+            transformedElements: 0,
+            measurementsTaken: 0,
+            transformTimes: [],
+            observerCalls: 0,
+            errors: 0
+        };
+        
+        // Initialize system
+        document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                // Initialize Quantum RTL Integration
+                quantumRTL = new QuantumRTLIntegration({
+                    debug: true,
+                    transformer: {
+                        intensity: 60,
+                        speed: 'medium',
+                        autoDetectHebrew: true
+                    },
+                    measurer: {
+                        enabled: true,
+                        mode: 'ondemand',
+                        visualization: true
+                    },
+                    controlPanel: {
+                        enabled: true,
+                        position: 'bottom-left',
+                        hotkeys: true
+                    }
+                });
+                
+                await quantumRTL.initialize();
+                
+                // Setup event listeners
+                setupEventListeners();
+                
+                // Create particles
+                createParticles();
+                
+                // Start statistics updater
+                startStatsUpdater();
+                
+                console.log('🎯 Quantum RTL Demo initialized successfully');
+                
+            } catch (error) {
+                console.error('Failed to initialize Quantum RTL Demo:', error);
+                showError('שגיאה באתחול המערכת: ' + error.message);
+            }
+        });
+        
+        // Event listeners setup
+        function setupEventListeners() {
+            // Quantum RTL events
+            quantumRTL.addEventListener('quantum:transform:complete', (event) => {
+                stats.transformedElements++;
+                if (event.detail.duration) {
+                    stats.transformTimes.push(event.detail.duration);
+                }
+                updateStatsDisplay();
+            });
+            
+            quantumRTL.addEventListener('quantum:measure:complete', (event) => {
+                stats.measurementsTaken++;
+                updateStatsDisplay();
+            });
+            
+            quantumRTL.addEventListener('quantum:system:error', (event) => {
+                stats.errors++;
+                showError('שגיאה במערכת: ' + event.detail.error);
+            });
+            
+            // Observer events
+            quantumRTL.addEventListener('quantum:observer:call', () => {
+                stats.observerCalls++;
+            });
+        }
+        
+        // Demo functions
+        function transformThisCard(button) {
+            const card = button.closest('.demo-card');
+            if (card && quantumRTL) {
+                const result = quantumRTL.transformElement(card, 'demo-card-' + Date.now());
+                if (result) {
+                    button.textContent = '✅ טרנספורמציה הופעלה';
+                    button.disabled = true;
+                    setTimeout(() => {
+                        button.textContent = 'הפעל טרנספורמציה';
+                        button.disabled = false;
+                    }, 2000);
+                }
+            }
+        }
+        
+        function startMeasurement(button) {
+            const measurer = quantumRTL.components.get('measurer');
+            if (measurer) {
+                if (measurer.isActive()) {
+                    measurer.deactivate();
+                    button.textContent = 'התחל מדידה';
+                } else {
+                    measurer.activate();
+                    button.textContent = 'עצור מדידה';
+                }
+            }
+        }
+        
+        function openControlPanel() {
+            quantumRTL.toggleControlPanel();
+        }
+        
+        function applyPreset(presetName) {
+            quantumRTL.applyPreset(presetName);
+            showMessage(`מצב ${presetName} הופעל`);
+        }
+        
+        function handleInputChange(input) {
+            const resultDiv = document.getElementById('input-result');
+            const text = input.value;
+            
+            if (text.trim()) {
+                const isHebrew = /[\u0590-\u05FF]/.test(text);
+                resultDiv.innerHTML = `
+                    <div style="color: ${isHebrew ? '#00d4ff' : '#ff6b6b'};">
+                        ${isHebrew ? '✅ זוהה טקסט עברי' : '📝 טקסט לא עברי'}
+                    </div>
+                    <div style="color: #b8b8b8; font-size: 0.9rem; margin-top: 0.5rem;">
+                        אורך: ${text.length} תווים | מילים: ${text.split(/\s+/).filter(w => w.length > 0).length}
+                    </div>
+                `;
+            } else {
+                resultDiv.innerHTML = '';
+            }
+        }
+        
+        function analyzeText() {
+            const input = document.querySelector('.demo-input');
+            const text = input.value;
+            
+            if (!text.trim()) {
+                showError('הקלד טקסט לניתוח');
+                return;
+            }
+            
+            const analysis = {
+                length: text.length,
+                words: text.split(/\s+/).filter(w => w.length > 0).length,
+                hebrewChars: (text.match(/[\u0590-\u05FF]/g) || []).length,
+                englishChars: (text.match(/[a-zA-Z]/g) || []).length,
+                numbers: (text.match(/\d/g) || []).length,
+                isHebrew: /[\u0590-\u05FF]/.test(text)
+            };
+            
+            const resultDiv = document.getElementById('input-result');
+            resultDiv.innerHTML = `
+                <div style="background: rgba(0, 212, 255, 0.1); border: 1px solid rgba(0, 212, 255, 0.3); border-radius: 10px; padding: 1rem; text-align: right;">
+                    <h4 style="color: #00d4ff; margin: 0 0 1rem 0;">ניתוח טקסט:</h4>
+                    <div>אורך כולל: ${analysis.length} תווים</div>
+                    <div>מספר מילים: ${analysis.words}</div>
+                    <div>תווים עבריים: ${analysis.hebrewChars}</div>
+                    <div>תווים אנגליים: ${analysis.englishChars}</div>
+                    <div>מספרים: ${analysis.numbers}</div>
+                    <div style="color: ${analysis.isHebrew ? '#00ff88' : '#ff6b6b'};">
+                        ${analysis.isHebrew ? '✅ הטקסט מכיל עברית' : '❌ הטקסט לא מכיל עברית'}
+                    </div>
+                </div>
+            `;
+        }
+        
+        function transformInput() {
+            const input = document.querySelector('.demo-input');
+            const resultDiv = document.getElementById('input-result');
+            
+            if (!input.value.trim()) {
+                showError('הקלד טקסט להפעלת טרנספורמציה');
+                return;
+            }
+            
+            const result = quantumRTL.transformElement(input, 'input-transform-' + Date.now());
+            if (result) {
+                resultDiv.innerHTML += '<div style="color: #00ff88; margin-top: 1rem;">✅ טרנספורמציה הופעלה על השדה</div>';
+            }
+        }
+        
+        function transformHebrewContent(button) {
+            const card = button.closest('.demo-card');
+            const hebrewElements = card.querySelectorAll('.hebrew-text p, .hebrew-text div');
+            
+            if (hebrewElements.length > 0) {
+                const results = quantumRTL.transformElements(Array.from(hebrewElements), 'hebrew-content');
+                const successCount = results.filter(r => r).length;
+                
+                button.textContent = `✅ טופלו ${successCount} אלמנטים`;
+                button.disabled = true;
+                
+                setTimeout(() => {
+                    button.textContent = 'הפעל טרנספורמציה על התוכן';
+                    button.disabled = false;
+                }, 3000);
+            }
+        }
+        
+        function refreshStats() {
+            const systemStats = quantumRTL.getStatistics();
+            
+            document.getElementById('avg-transform-time').textContent = 
+                stats.transformTimes.length > 0 
+                    ? (stats.transformTimes.reduce((a, b) => a + b, 0) / stats.transformTimes.length).toFixed(2)
+                    : '0';
+            
+            document.getElementById('memory-usage').textContent = 
+                Math.round(performance.memory ? performance.memory.usedJSHeapSize / 1024 / 1024 : 0);
+            
+            document.getElementById('observer-calls').textContent = stats.observerCalls;
+            document.getElementById('error-count').textContent = stats.errors;
+            
+            showMessage('סטטיסטיקות עודכנו');
+        }
+        
+        function exportReport() {
+            const report = {
+                timestamp: new Date().toISOString(),
+                systemStats: quantumRTL.getStatistics(),
+                demoStats: stats,
+                uptime: Date.now() - startTime,
+                userAgent: navigator.userAgent,
+                url: window.location.href
+            };
+            
+            const dataStr = JSON.stringify(report, null, 2);
+            const dataBlob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(dataBlob);
+            
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = `quantum-rtl-report-${Date.now()}.json`;
+            link.click();
+            
+            URL.revokeObjectURL(url);
+            showMessage('דוח יוצא בהצלחה');
+        }
+        
+        // Utility functions
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 50;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.top = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 6 + 's';
+                particle.style.animationDuration = (Math.random() * 3 + 3) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+        
+        function startStatsUpdater() {
+            setInterval(() => {
+                const uptime = Math.floor((Date.now() - startTime) / 1000);
+                document.getElementById('uptime').textContent = uptime;
+                
+                if (quantumRTL) {
+                    const systemStats = quantumRTL.getStatistics();
+                    document.getElementById('transformed-count').textContent = systemStats.transformedElements;
+                    document.getElementById('measurements-count').textContent = systemStats.measurementsTaken;
+                    
+                    const transformer = quantumRTL.components.get('transformer');
+                    if (transformer) {
+                        document.getElementById('intensity-level').textContent = transformer.config.intensity;
+                    }
+                }
+            }, 1000);
+        }
+        
+        function showMessage(message) {
+            // Simple toast notification
+            const toast = document.createElement('div');
+            toast.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: rgba(0, 212, 255, 0.9);
+                color: white;
+                padding: 1rem 1.5rem;
+                border-radius: 10px;
+                z-index: 10000;
+                font-family: 'Rubik', sans-serif;
+                direction: rtl;
+                animation: slideIn 0.3s ease;
+            `;
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            
+            setTimeout(() => {
+                toast.style.animation = 'slideOut 0.3s ease';
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+        
+        function showError(message) {
+            const toast = document.createElement('div');
+            toast.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: rgba(255, 107, 107, 0.9);
+                color: white;
+                padding: 1rem 1.5rem;
+                border-radius: 10px;
+                z-index: 10000;
+                font-family: 'Rubik', sans-serif;
+                direction: rtl;
+                animation: slideIn 0.3s ease;
+            `;
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            
+            setTimeout(() => {
+                toast.style.animation = 'slideOut 0.3s ease';
+                setTimeout(() => toast.remove(), 300);
+            }, 5000);
+        }
+        
+        // Add CSS animations
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes slideIn {
+                from { transform: translateX(100%); opacity: 0; }
+                to { transform: translateX(0); opacity: 1; }
+            }
+            @keyframes slideOut {
+                from { transform: translateX(0); opacity: 1; }
+                to { transform: translateX(100%); opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
+            }
+            
+            .demo-control-btn {
+                padding: 10px 16px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="demo-container">
+        <div class="demo-header">
+            <h1>🔮 ממיר RTL קוונטי</h1>
+            <p>מערכת לשינוי כיווניות האתר ברמת הקוונטים - כמו בסרט אנט-מן</p>
+        </div>
+
+        <div class="demo-grid">
+            <div class="demo-card">
+                <h3>📝 טקסט ותוכן</h3>
+                <div class="demo-text">
+                    <p>טקסט זה ישונה אוטומטית ל-RTL בעזרת הממיר הקוונטי. כל אות וכל מילה יטופלו ברמת הקוונטים.</p>
+                </div>
+                <div class="demo-hebrew-text">
+                    <p>זהו טקסט בעברית שמדגים כיצד המערכת מטפלת בתוכן בשפה העברית. הטקסט מיושר לימין ומופיע בצורה טבעית.</p>
+                    <p>המערכת הקוונטית מזהה אוטומטית תוכן בעברית ומחילה עליו הגדרות טיפוגרפיות מתקדמות.</p>
+                </div>
+                <button class="demo-button" onclick="transformTextElements()">המר טקסט</button>
+            </div>
+
+            <div class="demo-card">
+                <h3>📋 רשימות ותפריטים</h3>
+                <div class="demo-list">
+                    <ul>
+                        <li>פריט ראשון ברשימה</li>
+                        <li>פריט שני ברשימה</li>
+                        <li>פריט שלישי ברשימה</li>
+                        <li>פריט רביעי ברשימה</li>
+                    </ul>
+                </div>
+                <button class="demo-button" onclick="transformLists()">המר רשימות</button>
+            </div>
+
+            <div class="demo-card">
+                <h3>🎯 כפתורים ואלמנטים אינטראקטיביים</h3>
+                <div style="text-align: center; margin: 20px 0;">
+                    <button class="demo-button">כפתור ראשון</button>
+                    <button class="demo-button">כפתור שני</button>
+                    <button class="demo-button">כפתור שלישי</button>
+                </div>
+                <button class="demo-button" onclick="transformButtons()">המר כפתורים</button>
+            </div>
+
+            <div class="demo-card">
+                <h3>📝 טפסים ושדות קלט</h3>
+                <div class="demo-form">
+                    <input type="text" placeholder="הקלט שם פרטי">
+                    <input type="email" placeholder="הקלט כתובת אימייל">
+                    <textarea placeholder="הקלט הודעה ארוכה..." rows="3"></textarea>
+                </div>
+                <button class="demo-button" onclick="transformForms()">המר טפסים</button>
+            </div>
+
+            <div class="demo-card">
+                <h3>🖼️ כרטיסים ואלמנטים חזותיים</h3>
+                <div style="display: flex; gap: 15px; margin: 20px 0;">
+                    <div style="background: rgba(93, 90, 214, 0.2); padding: 15px; border-radius: 8px; flex: 1;">
+                        <h4 style="margin: 0 0 10px 0; color: #b8b5ff;">כרטיס 1</h4>
+                        <p style="margin: 0; font-size: 14px;">תוכן כרטיס ראשון</p>
+                    </div>
+                    <div style="background: rgba(93, 90, 214, 0.2); padding: 15px; border-radius: 8px; flex: 1;">
+                        <h4 style="margin: 0 0 10px 0; color: #b8b5ff;">כרטיס 2</h4>
+                        <p style="margin: 0; font-size: 14px;">תוכן כרטיס שני</p>
+                    </div>
+                </div>
+                <button class="demo-button" onclick="transformCards()">המר כרטיסים</button>
+            </div>
+
+            <div class="demo-card">
+                <h3>⚡ סטטיסטיקות קוונטיות</h3>
+                <div id="quantum-stats" style="background: rgba(0, 255, 0, 0.1); border: 1px solid #00ff00; padding: 15px; border-radius: 8px; font-family: 'Courier New', monospace; font-size: 12px;">
+                    <div>אלמנטים שהומרו: <span id="transformed-count">0</span></div>
+                    <div>מצב נוכחי: <span id="current-mode">מוכן</span></div>
+                    <div>עוצמת שינוי: <span id="intensity-level">60%</span></div>
+                </div>
+                <button class="demo-button" onclick="updateStats()">עדכן סטטיסטיקות</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="demo-controls">
+        <button class="demo-control-btn" onclick="window.quantumPanel.open()">🎛️ פאנל בקרה</button>
+        <button class="demo-control-btn" onclick="window.quantumMeasurer.activate()">📏 מדידה</button>
+        <button class="demo-control-btn" onclick="applyQuantumTransformation()">✨ הפעל המרה</button>
+        <button class="demo-control-btn" onclick="resetAllTransformations()">🔄 איפוס</button>
+    </div>
+
+    <div class="demo-status" id="demo-status">
+        מערכת RTL קוונטית מוכנה
+    </div>
+
+    <script src="quantum-rtl.js"></script>
+    <script src="quantum-measurer.js"></script>
+    <script src="quantum-control-panel.js"></script>
+
+    <script>
+        // Demo functions for quantum RTL transformations
+        function updateDemoStatus(message) {
+            document.getElementById('demo-status').textContent = message;
+            console.log('🎯 Demo: ' + message);
+        }
+
+        function updateStats() {
+            const transformedElements = document.querySelectorAll('[data-quantum-rtl="true"]').length;
+            document.getElementById('transformed-count').textContent = transformedElements;
+            document.getElementById('current-mode').textContent = transformedElements > 0 ? 'פעיל' : 'מוכן';
+            document.getElementById('intensity-level').textContent = '60%';
+            updateDemoStatus('סטטיסטיקות עודכנו');
+        }
+
+        function transformTextElements() {
+            const textElements = document.querySelectorAll('.demo-text, .demo-hebrew-text');
+            textElements.forEach((element, index) => {
+                if (window.quantumRTL) {
+                    window.quantumRTL.transformElement(element, 'demo-text-' + index);
+                }
+            });
+            updateDemoStatus('טקסט הומר בהצלחה');
+            updateStats();
+        }
+
+        function transformLists() {
+            const lists = document.querySelectorAll('.demo-list ul, .demo-list ol');
+            lists.forEach((element, index) => {
+                if (window.quantumRTL) {
+                    window.quantumRTL.transformElement(element, 'demo-list-' + index);
+                }
+            });
+            updateDemoStatus('רשימות הומרו בהצלחה');
+            updateStats();
+        }
+
+        function transformButtons() {
+            const buttons = document.querySelectorAll('.demo-button');
+            buttons.forEach((element, index) => {
+                if (window.quantumRTL) {
+                    window.quantumRTL.transformElement(element, 'demo-button-' + index);
+                }
+            });
+            updateDemoStatus('כפתורים הומרו בהצלחה');
+            updateStats();
+        }
+
+        function transformForms() {
+            const formElements = document.querySelectorAll('.demo-form input, .demo-form textarea');
+            formElements.forEach((element, index) => {
+                if (window.quantumRTL) {
+                    window.quantumRTL.transformElement(element, 'demo-form-' + index);
+                }
+            });
+            updateDemoStatus('טפסים הומרו בהצלחה');
+            updateStats();
+        }
+
+        function transformCards() {
+            const cards = document.querySelectorAll('.demo-card');
+            cards.forEach((element, index) => {
+                if (window.quantumRTL) {
+                    window.quantumRTL.transformElement(element, 'demo-card-' + index);
+                }
+            });
+            updateDemoStatus('כרטיסים הומרו בהצלחה');
+            updateStats();
+        }
+
+        function applyQuantumTransformation() {
+            if (window.quantumRTL) {
+                window.quantumRTL.transformExistingElements();
+                updateDemoStatus('המרה קוונטית מלאה הופעלה');
+                updateStats();
+            } else {
+                updateDemoStatus('מערכת RTL לא זמינה');
+            }
+        }
+
+        function resetAllTransformations() {
+            if (window.quantumRTL) {
+                window.quantumRTL.destroy();
+                window.quantumRTL = new QuantumRTLTransformer({ debug: true });
+            }
+            updateDemoStatus('כל ההמרות אופסו');
+            updateStats();
+        }
+
+        // Initialize demo
+        document.addEventListener('DOMContentLoaded', () => {
+            updateDemoStatus('דמו Quantum RTL מוכן');
+            updateStats();
+            
+            // Auto-transform some elements after load
+            setTimeout(() => {
+                transformTextElements();
+                transformHebrewText();
+            }, 1000);
+        });
+
+        // Hebrew text transformation
+        function transformHebrewText() {
+            const hebrewElements = document.querySelectorAll('.demo-hebrew-text');
+            hebrewElements.forEach(element => {
+                element.setAttribute('lang', 'he');
+                element.setAttribute('dir', 'rtl');
+            });
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            // Ctrl/Cmd + 1-6 for different transformations
+            if (e.ctrlKey || e.metaKey) {
+                switch (e.key) {
+                    case '1':
+                        e.preventDefault();
+                        transformTextElements();
+                        break;
+                    case '2':
+                        e.preventDefault();
+                        transformLists();
+                        break;
+                    case '3':
+                        e.preventDefault();
+                        transformButtons();
+                        break;
+                    case '4':
+                        e.preventDefault();
+                        transformForms();
+                        break;
+                    case '5':
+                        e.preventDefault();
+                        transformCards();
+                        break;
+                    case '0':
+                        e.preventDefault();
+                        resetAllTransformations();
+                        break;
+                }
+            }
+        });
+
+        console.log('🔮 Quantum RTL Demo loaded!');
+        console.log('Keyboard shortcuts:');
+        console.log('  Ctrl/Cmd + 1: Transform text');
+        console.log('  Ctrl/Cmd + 2: Transform lists');
+        console.log('  Ctrl/Cmd + 3: Transform buttons');
+        console.log('  Ctrl/Cmd + 4: Transform forms');
+        console.log('  Ctrl/Cmd + 5: Transform cards');
+        console.log('  Ctrl/Cmd + 0: Reset all');
+        console.log('  Ctrl/Cmd + Shift + Q: Open control panel');
+    </script>
+</body>
+</html>
