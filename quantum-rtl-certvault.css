@@ -1,0 +1,143 @@
+/* Quantum-Level RTL Implementation for Certvault Case Study */
+/* Optimized for Hebrew native speakers */
+
+/* Global RTL Reset */
+.quantum-rtl-zone {
+    direction: rtl;
+    text-align: right;
+    unicode-bidi: embed;
+}
+
+/* Layout adjustments for RTL */
+.quantum-rtl-zone .flex.justify-between {
+    flex-direction: row-reverse;
+}
+
+.quantum-rtl-zone .flex.justify-start {
+    justify-content: flex-end;
+}
+
+.quantum-rtl-zone .flex.justify-end {
+    justify-content: flex-start;
+}
+
+/* Margin and padding adjustments */
+.quantum-rtl-zone .ml-auto {
+    margin-right: auto;
+    margin-left: 0 !important;
+}
+
+.quantum-rtl-zone .mr-auto {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.quantum-rtl-zone .pl-4, .quantum-rtl-zone .px-4 {
+    padding-right: 1rem;
+    padding-left: 0;
+}
+
+.quantum-rtl-zone .pr-4, .quantum-rtl-zone .px-4 {
+    padding-left: 1rem;
+    padding-right: 0;
+}
+
+/* Typography adjustments for Hebrew */
+.quantum-rtl-zone h1,
+.quantum-rtl-zone h2,
+.quantum-rtl-zone h3,
+.quantum-rtl-zone h4,
+.quantum-rtl-zone h5,
+.quantum-rtl-zone h6 {
+    font-family: 'David CLM', 'Helvetica Neue', Arial, sans-serif;
+    text-align: right;
+}
+
+.quantum-rtl-zone p {
+    text-align: right;
+    font-family: 'David CLM', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* List adjustments for RTL */
+.quantum-rtl-zone ul,
+.quantum-rtl-zone ol {
+    padding-right: 1.5rem;
+    padding-left: 0;
+}
+
+.quantum-rtl-zone li {
+    text-align: right;
+}
+
+/* Navigation adjustments */
+.quantum-rtl-zone .Header_navLinkItem__l2xbK {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+/* Form adjustments */
+.quantum-rtl-zone input,
+.quantum-rtl-zone textarea {
+    text-align: right;
+}
+
+/* Button adjustments */
+.quantum-rtl-zone button {
+    direction: rtl;
+}
+
+/* Card adjustments */
+.quantum-rtl-zone .card {
+    text-align: right;
+}
+
+/* Icon adjustments */
+.quantum-rtl-zone .icon {
+    transform: scaleX(-1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .quantum-rtl-zone {
+        text-align: right;
+    }
+}
+
+/* Custom animations for RTL */
+@keyframes quantumSlideInRTL {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+.quantum-slide-in {
+    animation: quantumSlideInRTL 0.6s ease-out forwards;
+}
+
+/* Quantum-level focus states */
+.quantum-rtl-zone a:focus,
+.quantum-rtl-zone button:focus {
+    outline: 2px solid #5d5ad6;
+    outline-offset: 3px;
+}
+
+/* Quantum typography enhancements */
+.quantum-rtl-zone .quantum-text {
+    letter-spacing: 0.02em;
+    line-height: 1.6;
+}
+
+/* Quantum spacing */
+.quantum-rtl-zone .quantum-container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Quantum bidirectional handling */
+.quantum-rtl-zone [lang="en"] {
+    direction: ltr;
+    unicode-bidi: embed;
+    text-align: left;
+    display: inline-block;
+}

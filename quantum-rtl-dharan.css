@@ -1,0 +1,77 @@
+/* Quantum RTL CSS for Dharan E-commerce Case Study */
+
+/* Core RTL transformations with quantum principles */
+[dir="rtl"] .quantum-rtl-zone {
+    direction: rtl;
+    text-align: right;
+    transform: translateX(1%) scaleX(1.001); /* Quantum micro-adjustment */
+}
+
+/* Header adjustments */
+[dir="rtl"] .header-inner-container {
+    flex-direction: row-reverse;
+}
+
+/* Navigation adjustments */
+[dir="rtl"] .Header_wrapper__1yY2x {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .Header_contentLeft__LvrzL {
+    margin-right: 0;
+    margin-left: 5vw;
+}
+
+/* Hero section adjustments */
+[dir="rtl"] #hero .w-full {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+[dir="rtl"] #hero h1 {
+    text-align: right;
+}
+
+/* Parallax image adjustments */
+[dir="rtl"] #parallax-image img {
+    transform: translateY(-25%) scaleX(-1); /* Quantum mirroring effect */
+}
+
+/* Client section adjustments */
+[dir="rtl"] #client-section .flex {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] #client-section h3 {
+    text-align: right;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    [dir="rtl"] .quantum-rtl-zone {
+        transform: translateX(2%) scaleX(1.002); /* Adjusted quantum effect for mobile */
+    }
+}
+
+/* Quantum observation effect */
+@keyframes quantum-observation {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.999; } /* Quantum superposition effect */
+}
+
+.quantum-rtl-zone {
+    animation: quantum-observation 5s infinite;
+    position: relative;
+}
+
+/* Quantum field indicator */
+.quantum-rtl-zone::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background: linear-gradient(135deg, rgba(93, 90, 214, 0.02) 0%, transparent 100%);
+}

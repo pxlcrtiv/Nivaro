@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preload" as="image" href="nivaro-logo.svg" />
+    <link rel="preload" as="image" href="assets/header/sun.svg" />
+    <link rel="stylesheet" href="_next/static/css/b9252787244d20b8.css" data-precedence="next" />
+    <link rel="stylesheet" href="_next/static/css/ea18e4f5c9a14a19.css" data-precedence="next" />
+    <link rel="stylesheet" href="rtl.css" data-precedence="next" />
+    <link rel="preload" as="script" fetchPriority="low" href="_next/static/chunks/webpack-a2af136bdf42db30.js" />
+    <script src="_next/static/chunks/4bd1b696-ef24e22af2dd4969.js" async=""></script>
+    <script src="_next/static/chunks/1684-5994cc554aa4709a.js" async=""></script>
+    <script src="_next/static/chunks/main-app-d41d56f775a954bb.js" async=""></script>
+    <script src="_next/static/chunks/c15bf2b0-9b47df8245c6c35a.js" async=""></script>
+    <script src="_next/static/chunks/802-eeebe957aeefab67.js" async=""></script>
+    <script src="_next/static/chunks/735-2553b518e0150d17.js" async=""></script>
+    <script src="_next/static/chunks/1720-849ad249c2e002db.js" async=""></script>
+    <script src="_next/static/chunks/9309-1e365566bb62c06d.js" async=""></script>
+    <script src="_next/static/chunks/5541-55ab2e6b7c9e3e17.js" async=""></script>
+    <script src="_next/static/chunks/4527-735696e9dfd6db4d.js" async=""></script>
+    <script src="_next/static/chunks/3998-c31203bf7919fabc.js" async=""></script>
+    <script src="_next/static/chunks/app/careers/page-d4fcc85b55dc9254.js" async=""></script>
+    <script src="_next/static/chunks/app/layout-cae246b225935868.js" async=""></script>
+    <link rel="preload" href="../www.googletagmanager.com/gtmeaad.js?id=GTM-PV4GH9JJ" as="script" />
+    <title>Careers in Design, Tech &amp; Marketing | Current Openings</title>
+    <meta name="description"
+        content="Explore exciting roles in UI/UX Design, Front-End Development, Digital Marketing, Business Development, and more. Impactful work in a collaborative environment." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="careers.html" />
+    <link rel="alternate" hrefLang="hrefLang" href="en-US.html" />
+    <link rel="alternate" hrefLang="href" href="careers.html" />
+    <link rel="alternate" type="application/rss+xml" href="feed.xml" />
+    <meta name="google-site-verification" content="aqmk50ZtfefKhtzh9Fr2VOpKByQGeMyL60rwwgl-r7A" />
+    <meta property="og:title" content="Careers in Design, Tech &amp; Marketing | Current Openings" />
+    <meta property="og:description"
+        content="Explore exciting roles in UI/UX Design, Front-End Development, Digital Marketing, Business Development, and more. Impactful work in a collaborative environment." />
+    <meta property="og:url" content="https://wearenivaro.com/careers" />
+    <meta property="og:locale" content="he_IL" />
+    <meta property="og:image" content="https://wearenivaro.com/assets/seo/career.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Page Og Image" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="Nivaro Digital Agency" />
+    <meta name="twitter:title" content="Careers in Design, Tech &amp; Marketing | Current Openings" />
+    <meta name="twitter:description"
+        content="Explore exciting roles in UI/UX Design, Front-End Development, Digital Marketing, Business Development, and more. Impactful work in a collaborative environment." />
+    <meta name="twitter:image" content="https://wearenivaro.com/assets/seo/career.png" />
+    <script>document.querySelectorAll('body link[rel="icon"], body link[rel="apple-touch-icon"]').forEach(el => document.head.appendChild(el))</script>
+    <script src="_next/static/chunks/polyfills-42372ed130431b0a.js" noModule=""></script>
+<link rel="stylesheet" href="quantum-rtl-careers.css">
+</head>
+
+<body>
+    <div hidden=""><!--$--><!--/$--></div>
+    <script
+        type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","@id":"https://wearenivaro.com/careers#webpage","url":"https://wearenivaro.com/careers","name":"Careers in Design, Tech & Marketing | Current Openings","description":"Explore exciting roles in UI/UX Design, Front-End Development, Digital Marketing, Business Development, and more. Impactful work in a collaborative environment.","datePublished":"2023-01-01T00:00","dateModified":"2024-12-25T00:00","publisher":{"@type":"Organization","name":"Nivaro Digital Agency","logo":{"@type":"ImageObject","url":"https://wearenivaro.com/nivaro-logo.png"}},"about":{"@id":"https://wearenivaro.com/careers#organization"},"isPartOf":{"@id":"https://wearenivaro.com/careers#website"},"inLanguage":"he"}</script>
+    <script
+        type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","@id":"https://wearenivaro.com/#organization","name":"Nivaro Digital Agency","description":"Nivaro is India's Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and Neuromarketing Strategies to Create Digital Products that People Love to Use.","url":"https://wearenivaro.com","telephone":"+91 8178 026 136","email":"hi@wearenivaro.com","address":{"@type":"PostalAddress","streetAddress":"#301, Tower A, Grandslam Ithum","addressLocality":"Sector-62","addressRegion":"Noida, Uttar Pradesh","postalCode":"201301","addressCountry":"IN"},"logo":"https://wearenivaro.com/nivaro-logo.png","sameAs":["https://www.instagram.com/nivarodigital/","https://in.linkedin.com/company/nivaro-digital-product-design-ui-ux-neuromarketing","https://www.facebook.com/in.nivarodigital","https://twitter.com/_NivaroDigital"]}</script>
+    <script
+        type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","@id":"https://wearenivaro.com/#website","name":"Nivaro Digital Agency","url":"https://wearenivaro.com","copyrightYear":2025,"inLanguage":"he","publisher":[{"@id":"https://wearenivaro.com/#organization"}]}</script>
+    <script
+        type="application/ld+json">{"@context":"https://schema.org/","@type":"ItemList","itemListElement":[{"@type":"SiteNavigationElement","position":1,"name":"About","description":"Nivaro is a team of creators, discoverers, dreamers, & doers, crafting exceptional digital experiences. We are India's leading UI UX design & marketing agency.","url":"https://wearenivaro.com/who-we-are"},{"@type":"SiteNavigationElement","position":2,"name":"Services","description":"Nivaro offers UI UX design, Web Design, Mobile App Design, Frontend Development and Organic Digital Marketing Services. See how we can help your business grow.","url":"https://wearenivaro.com/services"},{"@type":"SiteNavigationElement","position":3,"name":"Works","description":"Explore Nivaro's portfolio, a showcase of our diverse services in UI/UX design, branding, and web development, driving exceptional results.","url":"https://wearenivaro.com/our-portfolio"},{"@type":"SiteNavigationElement","position":4,"name":"Insights","description":"Dive into our curated collection of articles on UI/UX Design, Digital Marketing, Technology & Human Psychology. Stay updated with the latest trends.","url":"https://wearenivaro.com/blog"},{"@type":"SiteNavigationElement","position":5,"name":"Careers","description":"Experience top-tier UI/UX design, front-end development, and organic marketing jobs with Nivaro Digital. Find The Right Jobs","url":"https://wearenivaro.com/careers"},{"@type":"SiteNavigationElement","position":6,"name":"Contact","description":"Contact Nivaro for top-tier UI/UX design, front-end development, and organic digital marketing solutions. Let's collaborate and ascend your digital presence.","url":"https://wearenivaro.com/get-in-touch"}]}</script>
+    <script
+        type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","@id":"https://wearenivaro.com/assets/seo/index.png","url":"https://wearenivaro.com/assets/seo/index.png","width":"1200","height":"630","inLanguage":"he"}</script>
+    <header class="fixed top-0 left-0 right-0 z-[100] transition-transform duration-500 translate-y-none">
+        <div
+            class="w-[92%] mx-auto flex justify-between items-center py-[2vw] tablet:py-[3vw] tablet:w-[90%] mobile:w-[85%] mobile:py-[4vw] header-inner-container">
+            <div class="logo w-[2.3vw] h-full tablet:w-[6vw] mobile:w-[34px]"><a aria-label="Go to Homepage"
+                    href="index.html"><img alt="Nivaro Logo" title="Nivaro Logo" data-cursor-size="60px"
+                        data-cursor-exclusion="true" width="80" height="80" decoding="async" data-nimg="1"
+                        class="dark:invert header-logo" style="color:transparent" src="nivaro-logo.svg" /></a></div>
+            <div class="flex items-center justify-end gap-[3vw] tablet:gap-[5vw] mobile:gap-[6vw]">
+                <div data-cursor-size="60px" data-cursor-exclusion="true"><button aria-label="Open Showreel"
+                        class="font-heading text-[1vw] font-medium tablet:text-[3vw] text-[#1a1a1a] dark:text-[#ffffff] mobile:hidden showreel-btn"><span
+                            class="">showreel&#x27;23</span></button></div><button aria-label="Toggle Dark Mode"
+                    class="rounded-full w-[2.5vw] h-[2.5vw] tablet:w-[4vw] tablet:h-[4vw] bg-white p-[0.5vw] transform transition-transform duration-500 mobile:h-[30px] mobile:w-[30px] mobile:p-[4px] rotate-90 bg-white"><img
+                        alt="Dark Mode Icon" width="30" height="30" decoding="async" data-nimg="1" class="w-full h-full"
+                        style="color:transparent" src="assets/header/sun.svg" /></button><button aria-label="Open Menu"
+                    class="Header_menuBtn__kYp93 " data-cursor-exclusion="true" data-cursor-size="60px"><svg
+                        viewBox="0 0 100 100" class="w-[2.5vw] h-auto tablet:w-[6vw] mobile:w-[40px] menuSvg">
+                        <path class=" Header_line__pxxLV Header_line1__ZnWfE"
+                            d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058">
+                        </path>
+                        <path class=" Header_line__pxxLV Header_line2__eQilZ" d="M 20,50 H 80"></path>
+                        <path class=" Header_line__pxxLV Header_line3__1n8lo"
+                            d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942">
+                        </path>
+                    </svg></button>
+            </div>
+        </div>
+    </header>
+    <div class="undefined !fixed top-0 left-0 bottom-0 right-0 z-[120] pointer-events-none " data-cursor-color="#5d5ad6"
+        data-cursor-text="Close" data-cursor-size="100px"></div>
+    <div class="Header_nav__IZBbc" id="mb_nav" data-cursor-exclusion="true">
+        <div class="Header_menuLoaderBars__KLHkr"><span class="Header_menuLoaderBar__FN6zM menuLoaderBar"></span><span
+                class="Header_menuLoaderBar__FN6zM menuLoaderBar"></span><span
+                class="Header_menuLoaderBar__FN6zM menuLoaderBar"></span><span
+                class="Header_menuLoaderBar__FN6zM menuLoaderBar"></span><span
+                class="Header_menuLoaderBar__FN6zM menuLoaderBar"></span></div>
+        <div class="Header_menuLayer__sDzNa">
+            <div class="Header_menuLogoContainer___5teo"><a href="index.html"><img alt="Nivaro Logo" title="Nivaro Logo"
+                        loading="lazy" width="80" height="80" decoding="async" data-nimg="1" style="color:transparent"
+                        src="nivaro-logo.svg" /></a></div><button class="Header_menuButtonInside___Gv4z " id="menuButton"
+                aria-label="Main Menu" data-cursor-opaque="true" data-cursor-size="60px"><svg viewBox="0 0 100 100"
+                    class="w-[2.5vw] tablet:w-[6vw] mobile:w-[40px]">
+                    <path class=" Header_line__pxxLV Header_line1__ZnWfE"
+                        d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058">
+                    </path>
+                    <path class=" Header_line__pxxLV Header_line2__eQilZ" d="M 20,50 H 80"></path>
+                    <path class=" Header_line__pxxLV Header_line3__1n8lo"
+                        d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942">
+                    </path>
+                </svg></button>
+            <div class="Header_wrapper__1yY2x">
+                <div class="Header_contentLeft__LvrzL">
+                    <div class="Header_navLinkItem__l2xbK"><span
+                            class="Header_contentHeadingSerial__xVuxD">0<!-- -->1</span><a class="Header_navLink__wkFKz"
+                            href="who-we-are.html">About</a></div>
+                    <div class="Header_navLinkItem__l2xbK"><span
+                            class="Header_contentHeadingSerial__xVuxD">0<!-- -->2</span><a class="Header_navLink__wkFKz"
+                            href="services.html">Expertise</a></div>
+                    <div class="Header_navLinkItem__l2xbK"><span
+                            class="Header_contentHeadingSerial__xVuxD">0<!-- -->3</span><a class="Header_navLink__wkFKz"
+                            href="our-portfolio.html">Works</a></div>
+                    <div class="Header_navLinkItem__l2xbK"><span
+                            class="Header_contentHeadingSerial__xVuxD">0<!-- -->4</span><a class="Header_navLink__wkFKz"
+                            href="blog.html">Insights</a></div>
+                    <div class="Header_navLinkItem__l2xbK"><span
+                            class="Header_contentHeadingSerial__xVuxD">0<!-- -->5</span><a class="Header_navLink__wkFKz"
+                            href="careers.html">Careers</a></div>
+                    <div class="Header_navLinkItem__l2xbK"><span
+                            class="Header_contentHeadingSerial__xVuxD">0<!-- -->6</span><a class="Header_navLink__wkFKz"
+                            href="get-in-touch.html">Contact</a></div>
+                </div>
+                <div class="Header_contentRight__yfhGM">
+                    <div class="Header_contentRightBody__QXXSw">
+                        <div class="Header_contentRightBodyTop__CDkVP">
+                            <div class="Header_contentTitle__5pBmH">let&#x27;s be friends</div>
+                            <div class="Header_socialItems__GV7GF">
+                                <div class="Header_socialItem__GseNS" data-cursor-opaque="true" data-cursor-size="50px">
+                                    <a class="en-main-link" target="blank" rel="nofollow, noreferrer"
+                                        href="https://www.facebook.com/in.nivarodigital"><span
+                                            data-text="Facebook">Facebook</span></a></div>
+                                <div class="Header_socialItem__GseNS" data-cursor-opaque="true" data-cursor-size="50px">
+                                    <a class="en-main-link" target="blank" rel="nofollow, noreferrer"
+                                        href="https://www.instagram.com/nivarodigital/"><span
+                                            data-text="Instagram">Instagram</span></a></div>
+                                <div class="Header_socialItem__GseNS" data-cursor-opaque="true" data-cursor-size="50px">
+                                    <a class="en-main-link" target="blank" rel="nofollow, noreferrer"
+                                        href="https://twitter.com/_NivaroDigital"><span
+                                            data-text="Twitter">Twitter</span></a></div>
+                                <div class="Header_socialItem__GseNS" data-cursor-opaque="true" data-cursor-size="50px">
+                                    <a class="en-main-link" target="blank" rel="nofollow, noreferrer"
+                                        href="https://in.linkedin.com/company/nivaro-digital-product-design-ui-ux-neuromarketing"><span
+                                            data-text="LinkedIn">LinkedIn</span></a></div>
+                                <div class="Header_socialItem__GseNS" data-cursor-opaque="true" data-cursor-size="50px">
+                                    <a class="en-main-link" target="blank" rel="nofollow, noreferrer"
+                                        href="https://www.behance.net/nivaro-digital"><span
+                                            data-text="Behance">Behance</span></a></div>
+                                <div class="Header_socialItem__GseNS" data-cursor-opaque="true" data-cursor-size="50px">
+                                    <a class="en-main-link" target="blank" rel="nofollow, noreferrer"
+                                        href="https://www.youtube.com/"><span data-text="Youtube">Youtube</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Header_contentRightBodyTop__CDkVP">
+                            <div class="Header_contentTitle__5pBmH">for new business</div>
+                            <div class="Header_contentRightBottom__drb55">
+                                <div class="Header_socialItem__GseNS" data-cursor-opaque="true" data-cursor-size="50px">
+                                    <a class="en-link-under"
+                                        href="mailto:hi@wearenivaro.com"><span>hi@wearenivaro.com</span></a></div>
+                                <div class="Header_socialItem__GseNS" data-cursor-opaque="true" data-cursor-size="50px">
+                                    <a class="en-main-link" href="tel:+91 8178 026 136"><span
+                                            data-text="+91 8178 026 136">+91 8178 026 136</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main style="cursor:none">
+        <section id="hero" class="quantum-rtl-zone>
+            <div class="w-[85%] mx-auto text-center">
+                <div
+                    class="w-3/5 mx-auto pt-[12vw] pb-7 tablet:w-full tablet:pt-[20vw] tablet:pb-[10vw] mobile:pt-[25vw]">
+                    <h1
+                        class="text-[6.5vw] tablet:text-[12vw] mobile:text-[12vw] leading-[1.2] font-heading font-medium">
+                        Build the <span class="text-primary">Future<!-- --> </span>of Web With Us!</h1>
+                </div>
+                <div
+                    class="w-3/4 tablet:w-full mb-16 mx-auto text-gray2 text-[1.5vw] tablet:text-[3.4vw] mobile:text-xl text-center tablet:text-justify mobile:mb-10">
+                    <p class="mb-7">Embarking on a career at Nivaro isn&#x27;t just about a job; it&#x27;s about
+                        embracing a lifestyle where innovation, creativity, and impact are at the core of everything we
+                        do. We don&#x27;t just follow trends—we set them. Here, your voice is not only heard but valued
+                        and your ideas have the power to reshape the digital landscape.</p>
+                    <p>Join us on our mission to build a brighter tomorrow through innovation &amp; creativity.</p>
+                </div>
+                <div class="w-fit mx-auto"><a href="#job-listing"
+                        class="block hover:bg-primary hover:shadow-lg duration-300 text-primary hover:text-white border-primary border-2 rounded-full py-3 px-10 tablet:py-3 tablet:px-6">
+                        <div class="flex gap-3 items-center justify-center"><span
+                                class="font-medium text-xl tablet:text-2xl mobile:text-xl">View Openings</span><svg
+                                class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g id="style=stroke">
+                                    <g id="arrow-long-right">
+                                        <path id="vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M1.94995 12C1.94995 12.4142 2.28574 12.75 2.69995 12.75L21.2 12.75C21.6142 12.75 21.95 12.4142 21.95 12C21.95 11.5858 21.6142 11.25 21.2 11.25L2.69995 11.25C2.28574 11.25 1.94995 11.5858 1.94995 12Z">
+                                        </path>
+                                        <path id="vector (Stroke)_2" fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M14.1696 4.46967C13.8767 4.76256 13.8767 5.23744 14.1696 5.53033L20.4625 11.8232C20.5601 11.9209 20.5601 12.0791 20.4625 12.1768L14.1696 18.4697C13.8767 18.7626 13.8767 19.2374 14.1696 19.5303C14.4625 19.8232 14.9374 19.8232 15.2303 19.5303L21.5232 13.2374C22.2066 12.554 22.2066 11.446 21.5232 10.7626L15.2303 4.46967C14.9374 4.17678 14.4625 4.17678 14.1696 4.46967Z">
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg></div>
+                    </a></div>
+            </div>
+        </section>
+        <section id="browse-jobs">
+            <div
+                class="w-[75%] tablet:w-[80%] mx-auto text-center py-[10vw] tablet:py-[15vw] px-8 tablet:px-0 mobile:py-[25vw]">
+                <h2
+                    class="font-heading text-[3.5vw] mb-20 tablet:text-[7vw] mobile:text-4xl font-medium mobile:mb-10 title-anim">
+                    Browse<span class="text-primary"> Jobs</span></h2>
+                <div class="flex flex-wrap gap-4 tablet:flex-col tablet:gap-5 mobile:gap-2 fadeup"><a
+                        href="#job-listing"
+                        class="group duration-300 hover:text-primary text-[2.1vw] tablet:text-4xl mobile:text-xl font-medium flex items-center">
+                        <h3>UI/UX Design</h3><span
+                            class="bg-black1 group-hover:opacity-0 duration-300 h-4 w-4 mobile:h-3 mobile:w-3 rounded-full ml-4"></span><img
+                            alt="circular arrow svg" loading="lazy" width="10" height="10" decoding="async"
+                            data-nimg="1" class="w-8 h-8 -ml-[25px] opacity-0 duration-300 group-hover:opacity-100"
+                            style="color:transparent" src="assets/icons/arrow-circle.svg" />
+                    </a><a href="#job-listing"
+                        class="group duration-300 hover:text-primary text-[2.1vw] tablet:text-4xl mobile:text-xl font-medium flex items-center">
+                        <h3>Business Development</h3><span
+                            class="bg-black1 group-hover:opacity-0 duration-300 h-4 w-4 mobile:h-3 mobile:w-3 rounded-full ml-4"></span><img
+                            alt="circular arrow svg" loading="lazy" width="10" height="10" decoding="async"
+                            data-nimg="1" class="w-8 h-8 -ml-[25px] opacity-0 duration-300 group-hover:opacity-100"
+                            style="color:transparent" src="assets/icons/arrow-circle.svg" />
+                    </a><a href="#job-listing"
+                        class="group duration-300 hover:text-primary text-[2.1vw] tablet:text-4xl mobile:text-xl font-medium flex items-center">
+                        <h3>Account Management</h3><span
+                            class="bg-black1 group-hover:opacity-0 duration-300 h-4 w-4 mobile:h-3 mobile:w-3 rounded-full ml-4"></span><img
+                            alt="circular arrow svg" loading="lazy" width="10" height="10" decoding="async"
+                            data-nimg="1" class="w-8 h-8 -ml-[25px] opacity-0 duration-300 group-hover:opacity-100"
+                            style="color:transparent" src="assets/icons/arrow-circle.svg" />
+                    </a><a href="#job-listing"
+                        class="group duration-300 hover:text-primary text-[2.1vw] tablet:text-4xl mobile:text-xl font-medium flex items-center">
+                        <h3>Frontend Development</h3><span
+                            class="bg-black1 group-hover:opacity-0 duration-300 h-4 w-4 mobile:h-3 mobile:w-3 rounded-full ml-4"></span><img
+                            alt="circular arrow svg" loading="lazy" width="10" height="10" decoding="async"
+                            data-nimg="1" class="w-8 h-8 -ml-[25px] opacity-0 duration-300 group-hover:opacity-100"
+                            style="color:transparent" src="assets/icons/arrow-circle.svg" />
+                    </a><a href="#job-listing"
+                        class="group duration-300 hover:text-primary text-[2.1vw] tablet:text-4xl mobile:text-xl font-medium flex items-center">
+                        <h3>Search Engine Optimisation</h3><span
+                            class="bg-black1 group-hover:opacity-0 duration-300 h-4 w-4 mobile:h-3 mobile:w-3 rounded-full ml-4"></span><img
+                            alt="circular arrow svg" loading="lazy" width="10" height="10" decoding="async"
+                            data-nimg="1" class="w-8 h-8 -ml-[25px] opacity-0 duration-300 group-hover:opacity-100"
+                            style="color:transparent" src="assets/icons/arrow-circle.svg" />
+                    </a><a href="#job-listing"
+                        class="group duration-300 hover:text-primary text-[2.1vw] tablet:text-4xl mobile:text-xl font-medium flex items-center">
+                        <h3>Content Writing</h3><span
+                            class="bg-black1 group-hover:opacity-0 duration-300 h-4 w-4 mobile:h-3 mobile:w-3 rounded-full ml-4"></span><img
+                            alt="circular arrow svg" loading="lazy" width="10" height="10" decoding="async"
+                            data-nimg="1" class="w-8 h-8 -ml-[25px] opacity-0 duration-300 group-hover:opacity-100"
+                            style="color:transparent" src="assets/icons/arrow-circle.svg" />
+                    </a><a href="#job-listing"
+                        class="group duration-300 hover:text-primary text-[2.1vw] tablet:text-4xl mobile:text-xl font-medium flex items-center">
+                        <h3>Social Media Marketing</h3><span
+                            class="bg-black1 group-hover:opacity-0 duration-300 h-4 w-4 mobile:h-3 mobile:w-3 rounded-full ml-4"></span><img
+                            alt="circular arrow svg" loading="lazy" width="10" height="10" decoding="async"
+                            data-nimg="1" class="w-8 h-8 -ml-[25px] opacity-0 duration-300 group-hover:opacity-100"
+                            style="color:transparent" src="assets/icons/arrow-circle.svg" />
+                    </a></div>
+            </div>
+        </section>
+        <section id="benefits">
+            <div class="w-[75%] tablet:w-[85%] mx-auto pb-[10vw] tablet:py-[15vw] mobile:pb-[20vw] px-4 tablet:px-0">
+                <div class="flex gap-24 tablet:flex-col tablet:gap-0">
+                    <div class="w-2/5 tablet:w-full pb-0 tablet:pb-16">
+                        <p class="mb-5 uppercase text-2xl font-bold tracking-wide fadeup">Benefits Of</p>
+                        <h3
+                            class="text-[2.2vw] font-heading mobile:text-4xl tablet:text-[6vw] text-left mb-5 font-medium leading-[1.3] title-anim">
+                            Working At <span class="text-primary"> <!-- -->Nivaro</span></h3>
+                        <p class="text-gray2 text-2xl tablet:text-3xl mobile:text-xl text-justify para-anim">At Nivaro,
+                            we offer more than jobs; we provide platforms for you to challenge the norms, create
+                            impactful solutions, and grow exponentially, both personally and professionally. Realize
+                            your full potential while defining the next generation of digital experiences.</p>
+                    </div>
+                    <div class="w-3/5 tablet:w-full grid grid-cols-2 mobile:grid-cols-1 gap-16">
+                        <div class="fadeup">
+                            <div class="rounded-md p-6 w-24 h-24 mb-8" style="background:#E7F2FF"><img
+                                    alt="job listing image" loading="lazy" width="100" height="100" decoding="async"
+                                    data-nimg="1" class="w-full h-full" style="color:transparent"
+                                    src="assets/career/career-1.svg" /></div>
+                            <p class="font-heading text-xl tablet:text-3xl font-medium mb-8">Innovative Culture:</p>
+                            <p
+                                class="text-lg tablet:text-xl tracking-wide text-black2 opacity-80 font-normal text-justify">
+                                Nivaro thrives on innovation, fostering a workspace where risk-taking and originality
+                                are part of your everyday. You&#x27;ll join a team eager to push boundaries and champion
+                                your groundbreaking ideas.</p>
+                        </div>
+                        <div class="fadeup">
+                            <div class="rounded-md p-6 w-24 h-24 mb-8" style="background:#F1F7E8"><img
+                                    alt="job listing image" loading="lazy" width="100" height="100" decoding="async"
+                                    data-nimg="1" class="w-full h-full" style="color:transparent"
+                                    src="assets/career/career-2.svg" /></div>
+                            <p class="font-heading text-xl tablet:text-3xl font-medium mb-8">Professional Growth:</p>
+                            <p
+                                class="text-lg tablet:text-xl tracking-wide text-black2 opacity-80 font-normal text-justify">
+                                At Nivaro, your career is a dynamic journey of learning and advancement. We offer
+                                diverse opportunities to grow with industry experts, ensuring every project polishes
+                                your professional prowess.</p>
+                        </div>
+                        <div class="fadeup">
+                            <div class="rounded-md p-6 w-24 h-24 mb-8" style="background:#EFF2F5"><img
+                                    alt="job listing image" loading="lazy" width="100" height="100" decoding="async"
+                                    data-nimg="1" class="w-full h-full" style="color:transparent"
+                                    src="assets/career/career-3.svg" /></div>
+                            <p class="font-heading text-xl tablet:text-3xl font-medium mb-8">Impactful Work:</p>
+                            <p
+                                class="text-lg tablet:text-xl tracking-wide text-black2 opacity-80 font-normal text-justify">
+                                Your work at Nivaro transcends typical client projects, driving industry innovation and
+                                making a tangible difference in the world. Here, you&#x27;re crafting solutions that
+                                redefine businesses and lives.</p>
+                        </div>
+                        <div class="fadeup">
+                            <div class="rounded-md p-6 w-24 h-24 mb-8" style="background:#FFEEED"><img
+                                    alt="job listing image" loading="lazy" width="100" height="100" decoding="async"
+                                    data-nimg="1" class="w-full h-full" style="color:transparent"
+                                    src="assets/career/career-4.svg" /></div>
+                            <p class="font-heading text-xl tablet:text-3xl font-medium mb-8">Collaborative Environment:
+                            </p>
+                            <p
+                                class="text-lg tablet:text-xl tracking-wide text-black2 opacity-80 font-normal text-justify">
+                                Your work at Nivaro transcends typical client projects, driving industry innovation and
+                                making a tangible difference in the world. Here, you&#x27;re crafting solutions that
+                                redefine businesses and lives.</p>
+                        </div>
+                        <div class="fadeup">
+                            <div class="rounded-md p-6 w-24 h-24 mb-8" style="background:#F1F3FF"><img
+                                    alt="job listing image" loading="lazy" width="100" height="100" decoding="async"
+                                    data-nimg="1" class="w-full h-full" style="color:transparent"
+                                    src="assets/career/career-5.svg" /></div>
+                            <p class="font-heading text-xl tablet:text-3xl font-medium mb-8">Work-Life Synergy:</p>
+                            <p
+                                class="text-lg tablet:text-xl tracking-wide text-black2 opacity-80 font-normal text-justify">
+                                Your work at Nivaro transcends typical client projects, driving industry innovation and
+                                making a tangible difference in the world. Here, you&#x27;re crafting solutions that
+                                redefine businesses and lives.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="job-listing">
+            <div class="w-[75%] mx-auto py-[10vw] tablet:w-[85%]">
+                <div class="text-center">
+                    <h4
+                        class="leading-[1.2] text-[3.5vw] mobile:text-4xl tablet:text-[7vw] font-medium mb-3 font-heading title-anim">
+                        Current<span class="text-primary"> Openings</span></h4>
+                    <p class="text-black2 text-xl tablet:text-2xl mobile:text-xl tracking-wide para-anim">An invitation
+                        to be part of a visionary tribe that&#x27;s shaping the digital future.</p>
+                </div>
+                <div class="mt-20 grid grid-cols-3 gap-[2.5%] tablet:grid-cols-2 tablet:gap-8 mobile:grid-cols-1">
+                    <div class="w-full h-full fadeup"><a
+                            class="relative shadow-lg px-7 py-10 space-y-10 duration-300 rounded-2xl dark:bg-white2 hover:bg-white group grid grid-rows-[auto auto auto auto] h-full tablet:space-y-8 "
+                            href="careers/senior-account-executive.html">
+                            <div class="flex items-center justify-start gap-[1vw] mobile:gap-4"><img
+                                    alt="Career Listing Image" loading="lazy" width="100" height="100" decoding="async"
+                                    data-nimg="1" class="w-[5vw] tablet:w-[10vw] mobile:w-[18vw]"
+                                    style="color:transparent"
+                                    srcSet="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgzupotgr%2Fproduction%2Fed730be303fefaf16dd6b12b07c357272ab28506-256x256.webp&amp;w=128&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgzupotgr%2Fproduction%2Fed730be303fefaf16dd6b12b07c357272ab28506-256x256.webp&amp;w=256&amp;q=75 2x"
+                                    src="_next/ed730be303fefaf16dd6b12b07c357272ab28506-256x256d330.png?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgzupotgr%2Fproduction%2Fed730be303fefaf16dd6b12b07c357272ab28506-256x256.webp&amp;w=256&amp;q=75" />
+                                <h5 class="font-medium text-2xl font-heading group-hover:underline">Senior Account
+                                    Executive</h5>
+                            </div>
+                            <div class="text-lg leading-[1.2]">Ready to play a pivotal role in our continued growth and
+                                success worldwide?</div>
+                            <div class="mb-2">
+                                <div class="flex items-center gap-4 h-full">
+                                    <div class="flex flex-col h-full justify-between pb-1 gap-2">
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-1.svg" /><span
+                                                class="text-lg text-black2">Full-time</span></div>
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-2.svg" /><span
+                                                class="text-lg text-black2">Flexible Hours</span></div>
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-3.svg" /><span
+                                                class="text-lg text-black2">On-site</span></div>
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-4.svg" /><span
+                                                class="text-lg text-black2">2 – 5 years experience</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="block group-hover:bg-primary h-fit group-hover:shadow-lg duration-300 text-primary group-hover:text-white border-primary border-2 rounded-full py-2 px-10 tablet:py-3 tablet:px-6">
+                                <div class="flex gap-3 items-center justify-center h-fit"><span
+                                        class="font-medium text-xl tablet:text-2xl mobile:text-xl">View
+                                        Details</span><svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="style=stroke">
+                                            <g id="arrow-long-right">
+                                                <path id="vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M1.94995 12C1.94995 12.4142 2.28574 12.75 2.69995 12.75L21.2 12.75C21.6142 12.75 21.95 12.4142 21.95 12C21.95 11.5858 21.6142 11.25 21.2 11.25L2.69995 11.25C2.28574 11.25 1.94995 11.5858 1.94995 12Z">
+                                                </path>
+                                                <path id="vector (Stroke)_2" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.1696 4.46967C13.8767 4.76256 13.8767 5.23744 14.1696 5.53033L20.4625 11.8232C20.5601 11.9209 20.5601 12.0791 20.4625 12.1768L14.1696 18.4697C13.8767 18.7626 13.8767 19.2374 14.1696 19.5303C14.4625 19.8232 14.9374 19.8232 15.2303 19.5303L21.5232 13.2374C22.2066 12.554 22.2066 11.446 21.5232 10.7626L15.2303 4.46967C14.9374 4.17678 14.4625 4.17678 14.1696 4.46967Z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg></div>
+                            </div>
+                            <div
+                                class="absolute text-lg font-heading top-4 right-4 text-white px-2 rounded !mt-0 job-Hot">
+                                <span>Hot</span></div>
+                        </a></div>
+                    <div class="w-full h-full fadeup"><a
+                            class="relative shadow-lg px-7 py-10 space-y-10 duration-300 rounded-2xl dark:bg-white2 hover:bg-white group grid grid-rows-[auto auto auto auto] h-full tablet:space-y-8 "
+                            href="careers/seo-specialist.html">
+                            <div class="flex items-center justify-start gap-[1vw] mobile:gap-4"><img
+                                    alt="Career Listing Image" loading="lazy" width="100" height="100" decoding="async"
+                                    data-nimg="1" class="w-[5vw] tablet:w-[10vw] mobile:w-[18vw]"
+                                    style="color:transparent"
+                                    srcSet="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgzupotgr%2Fproduction%2Ff755579d24343b31d8f77e2be222c5cc6c2fad02-256x256.webp&amp;w=128&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgzupotgr%2Fproduction%2Ff755579d24343b31d8f77e2be222c5cc6c2fad02-256x256.webp&amp;w=256&amp;q=75 2x"
+                                    src="_next/f755579d24343b31d8f77e2be222c5cc6c2fad02-256x256e1eb.png?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgzupotgr%2Fproduction%2Ff755579d24343b31d8f77e2be222c5cc6c2fad02-256x256.webp&amp;w=256&amp;q=75" />
+                                <h5 class="font-medium text-2xl font-heading group-hover:underline">SEO Specialist</h5>
+                            </div>
+                            <div class="text-lg leading-[1.2]">Are you passionate about SEO and eager to drive digital
+                                excellence?</div>
+                            <div class="mb-2">
+                                <div class="flex items-center gap-4 h-full">
+                                    <div class="flex flex-col h-full justify-between pb-1 gap-2">
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-1.svg" /><span
+                                                class="text-lg text-black2">Full-time</span></div>
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-2.svg" /><span
+                                                class="text-lg text-black2">Flexible Hours</span></div>
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-3.svg" /><span
+                                                class="text-lg text-black2">On-site</span></div>
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-4.svg" /><span
+                                                class="text-lg text-black2">2 – 4 years experience</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="block group-hover:bg-primary h-fit group-hover:shadow-lg duration-300 text-primary group-hover:text-white border-primary border-2 rounded-full py-2 px-10 tablet:py-3 tablet:px-6">
+                                <div class="flex gap-3 items-center justify-center h-fit"><span
+                                        class="font-medium text-xl tablet:text-2xl mobile:text-xl">View
+                                        Details</span><svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="style=stroke">
+                                            <g id="arrow-long-right">
+                                                <path id="vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M1.94995 12C1.94995 12.4142 2.28574 12.75 2.69995 12.75L21.2 12.75C21.6142 12.75 21.95 12.4142 21.95 12C21.95 11.5858 21.6142 11.25 21.2 11.25L2.69995 11.25C2.28574 11.25 1.94995 11.5858 1.94995 12Z">
+                                                </path>
+                                                <path id="vector (Stroke)_2" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.1696 4.46967C13.8767 4.76256 13.8767 5.23744 14.1696 5.53033L20.4625 11.8232C20.5601 11.9209 20.5601 12.0791 20.4625 12.1768L14.1696 18.4697C13.8767 18.7626 13.8767 19.2374 14.1696 19.5303C14.4625 19.8232 14.9374 19.8232 15.2303 19.5303L21.5232 13.2374C22.2066 12.554 22.2066 11.446 21.5232 10.7626L15.2303 4.46967C14.9374 4.17678 14.4625 4.17678 14.1696 4.46967Z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg></div>
+                            </div>
+                            <div
+                                class="absolute text-lg font-heading top-4 right-4 text-white px-2 rounded !mt-0 job-Hot">
+                                <span>Hot</span></div>
+                        </a></div>
+                </div>
+            </div>
+        </section>
+        <section id="listing">
+            <div class="w-[75%] mx-auto py-[10vw] tablet:w-[85%]">
+                <div class="text-center">
+                    <h4
+                        class="leading-[1.2] text-[3.5vw] mobile:text-4xl tablet:text-[7vw] font-medium mb-3 font-heading title-anim">
+                        Nivaro&#x27;s Internship<span class="text-primary"> Program</span></h4>
+                    <p
+                        class="w-1/2 tablet:w-full mx-auto text-black2 text-xl tablet:text-2xl mobile:text-xl tracking-wide para-anim">
+                        Intern with the Digital Pioneers: Unlock Your Potential &amp; Ignite Your Career with Hands-On
+                        Experience in the Digital Frontier. Real Projects, Real Impact!</p>
+                </div>
+                <div class="mt-20 grid grid-cols-3 gap-[2.5%] tablet:grid-cols-2 tablet:gap-8 mobile:grid-cols-1">
+                    <div class="w-full h-full fadeup"><a
+                            class="relative shadow-lg px-7 py-10 space-y-10 duration-300 rounded-2xl dark:bg-white2 hover:bg-white group grid grid-rows-[auto auto auto auto] h-full tablet:space-y-8 "
+                            href="careers/management-trainee-growth-marketing.html">
+                            <div class="flex items-center justify-start gap-[1vw] mobile:gap-4"><img
+                                    alt="Career Listing Image" loading="lazy" width="100" height="100" decoding="async"
+                                    data-nimg="1" class="w-[5vw] tablet:w-[10vw] mobile:w-[18vw]"
+                                    style="color:transparent"
+                                    srcSet="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgzupotgr%2Fproduction%2Ff79cd1d01686450325921bc3f029938166f3ea0b-256x256.webp&amp;w=128&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgzupotgr%2Fproduction%2Ff79cd1d01686450325921bc3f029938166f3ea0b-256x256.webp&amp;w=256&amp;q=75 2x"
+                                    src="_next/f79cd1d01686450325921bc3f029938166f3ea0b-256x2569500.png?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgzupotgr%2Fproduction%2Ff79cd1d01686450325921bc3f029938166f3ea0b-256x256.webp&amp;w=256&amp;q=75" />
+                                <h5 class="font-medium text-2xl font-heading group-hover:underline">Management Trainee –
+                                    Growth &amp; Marketing</h5>
+                            </div>
+                            <div class="text-lg leading-[1.2]">Kickstart your digital marketing career with an
+                                internship at Nivaro Digital.</div>
+                            <div class="mb-2">
+                                <div class="flex items-center gap-4 h-full">
+                                    <div class="flex flex-col h-full justify-between pb-1 gap-2">
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-1.svg" /><span
+                                                class="text-lg text-black2">Part Time</span></div>
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-2.svg" /><span
+                                                class="text-lg text-black2">Flexible Hours</span></div>
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-3.svg" /><span
+                                                class="text-lg text-black2">On-site </span></div>
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-4.svg" /><span
+                                                class="text-lg text-black2">3 months</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="block group-hover:bg-primary h-fit group-hover:shadow-lg duration-300 text-primary group-hover:text-white border-primary border-2 rounded-full py-2 px-10 tablet:py-3 tablet:px-6">
+                                <div class="flex gap-3 items-center justify-center h-fit"><span
+                                        class="font-medium text-xl tablet:text-2xl mobile:text-xl">View
+                                        Details</span><svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="style=stroke">
+                                            <g id="arrow-long-right">
+                                                <path id="vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M1.94995 12C1.94995 12.4142 2.28574 12.75 2.69995 12.75L21.2 12.75C21.6142 12.75 21.95 12.4142 21.95 12C21.95 11.5858 21.6142 11.25 21.2 11.25L2.69995 11.25C2.28574 11.25 1.94995 11.5858 1.94995 12Z">
+                                                </path>
+                                                <path id="vector (Stroke)_2" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.1696 4.46967C13.8767 4.76256 13.8767 5.23744 14.1696 5.53033L20.4625 11.8232C20.5601 11.9209 20.5601 12.0791 20.4625 12.1768L14.1696 18.4697C13.8767 18.7626 13.8767 19.2374 14.1696 19.5303C14.4625 19.8232 14.9374 19.8232 15.2303 19.5303L21.5232 13.2374C22.2066 12.554 22.2066 11.446 21.5232 10.7626L15.2303 4.46967C14.9374 4.17678 14.4625 4.17678 14.1696 4.46967Z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg></div>
+                            </div>
+                            <div
+                                class="absolute text-lg font-heading top-4 right-4 text-white px-2 rounded !mt-0 job-Urgent">
+                                <span>Urgent</span></div>
+                        </a></div>
+                    <div class="w-full h-full fadeup"><a
+                            class="relative shadow-lg px-7 py-10 space-y-10 duration-300 rounded-2xl dark:bg-white2 hover:bg-white group grid grid-rows-[auto auto auto auto] h-full tablet:space-y-8 "
+                            href="careers/motion-graphic-designer.html">
+                            <div class="flex items-center justify-start gap-[1vw] mobile:gap-4"><img
+                                    alt="Career Listing Image" loading="lazy" width="100" height="100" decoding="async"
+                                    data-nimg="1" class="w-[5vw] tablet:w-[10vw] mobile:w-[18vw]"
+                                    style="color:transparent"
+                                    srcSet="/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgzupotgr%2Fproduction%2F2f365fc4d7960d4fc3280bb3ca00bee19e8f18f1-256x256.webp&amp;w=128&amp;q=75 1x, /_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgzupotgr%2Fproduction%2F2f365fc4d7960d4fc3280bb3ca00bee19e8f18f1-256x256.webp&amp;w=256&amp;q=75 2x"
+                                    src="_next/2f365fc4d7960d4fc3280bb3ca00bee19e8f18f1-256x2561490.png?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2Fgzupotgr%2Fproduction%2F2f365fc4d7960d4fc3280bb3ca00bee19e8f18f1-256x256.webp&amp;w=256&amp;q=75" />
+                                <h5 class="font-medium text-2xl font-heading group-hover:underline">Motion &amp; Graphic
+                                    Designer</h5>
+                            </div>
+                            <div class="text-lg leading-[1.2]">Kickstart your motion and graphic design career with an
+                                internship at Nivaro Digital.</div>
+                            <div class="mb-2">
+                                <div class="flex items-center gap-4 h-full">
+                                    <div class="flex flex-col h-full justify-between pb-1 gap-2">
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-1.svg" /><span
+                                                class="text-lg text-black2">Part Time </span></div>
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-2.svg" /><span
+                                                class="text-lg text-black2">Flexible Hours </span></div>
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-3.svg" /><span
+                                                class="text-lg text-black2">On-site </span></div>
+                                        <div class="flex items-center gap-3"><img alt="Benefit Icon" loading="lazy"
+                                                width="15" height="15" decoding="async" data-nimg="1" class="w-6 h-6"
+                                                style="color:transparent" src="assets/career/benefit-4.svg" /><span
+                                                class="text-lg text-black2">4 months</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div
+                                class="block group-hover:bg-primary h-fit group-hover:shadow-lg duration-300 text-primary group-hover:text-white border-primary border-2 rounded-full py-2 px-10 tablet:py-3 tablet:px-6">
+                                <div class="flex gap-3 items-center justify-center h-fit"><span
+                                        class="font-medium text-xl tablet:text-2xl mobile:text-xl">View
+                                        Details</span><svg class="w-7 h-7" viewBox="0 0 24 24" fill="currentColor"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g id="style=stroke">
+                                            <g id="arrow-long-right">
+                                                <path id="vector (Stroke)" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M1.94995 12C1.94995 12.4142 2.28574 12.75 2.69995 12.75L21.2 12.75C21.6142 12.75 21.95 12.4142 21.95 12C21.95 11.5858 21.6142 11.25 21.2 11.25L2.69995 11.25C2.28574 11.25 1.94995 11.5858 1.94995 12Z">
+                                                </path>
+                                                <path id="vector (Stroke)_2" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.1696 4.46967C13.8767 4.76256 13.8767 5.23744 14.1696 5.53033L20.4625 11.8232C20.5601 11.9209 20.5601 12.0791 20.4625 12.1768L14.1696 18.4697C13.8767 18.7626 13.8767 19.2374 14.1696 19.5303C14.4625 19.8232 14.9374 19.8232 15.2303 19.5303L21.5232 13.2374C22.2066 12.554 22.2066 11.446 21.5232 10.7626L15.2303 4.46967C14.9374 4.17678 14.4625 4.17678 14.1696 4.46967Z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </svg></div>
+                            </div>
+                            <div
+                                class="absolute text-lg font-heading top-4 right-4 text-white px-2 rounded !mt-0 job-Urgent">
+                                <span>Urgent</span></div>
+                        </a></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="fresnel-container fresnel-greaterThan-tablet fresnel-«R1aptjb»">
+        <div id="c-cursor" class="c-cursor" style="width:10px;height:10px;background:#000">
+            <div style="color:#fff" id="c-cursorInner" class="c-cursor__inner"></div>
+        </div>
+    </div>
+    <footer class="w-full h-full">
+        <div class="w-[90%] mx-auto pt-[5%] pb-[1.5%] tablet:pt-[10%] tablet:pb-[5%] mobile:pt-[15%] mobile:pb-[10%]">
+            <div class="flex items-end justify-between tablet:block">
+                <div
+                    class="leading-[1.2] text-[7vw] font-heading footer-anim tablet:text-[8vw] tablet:text-center tablet:leading-[1.4]">
+                    <p class="">Let&#x27;s bring your</p>
+                    <p class="text-right tablet:text-center tablet:font-medium">ideas to life!</p>
+                </div>
+                <div class="w-[35%] flex items-end justify-around mb-[1.5vw] fadeup tablet:hidden">
+                    <div class="relative w-[12vw] h-[3vw]"><img alt="Footer Arrow Icon" loading="lazy" decoding="async"
+                            data-nimg="fill" class="!h-auto dark:invert"
+                            style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent"
+                            sizes="100vw"
+                            srcSet="/_next/image?url=%2Fassets%2Ficons%2Ffooter-arrow.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fassets%2Ficons%2Ffooter-arrow.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fassets%2Ficons%2Ffooter-arrow.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fassets%2Ficons%2Ffooter-arrow.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fassets%2Ficons%2Ffooter-arrow.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fassets%2Ficons%2Ffooter-arrow.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fassets%2Ficons%2Ffooter-arrow.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fassets%2Ficons%2Ffooter-arrow.png&amp;w=3840&amp;q=75 3840w"
+                            src="_next/footer-arrow4ce8.png?url=%2Fassets%2Ficons%2Ffooter-arrow.png&amp;w=3840&amp;q=75" />
+                    </div><a class="h-fit w-fit block" href="get-in-touch.html">
+                        <div data-cursor-text="Say Hi !!" data-cursor-color="#5d5ad6" data-cursor-size="100px"
+                            class="flex items-center justify-center leading-[1] font-heading h-[12vw] w-[12vw] bg-black1 rounded-full text-white text-[1.5vw] border border-black1 hover:bg-transparent duration-500 hover:text-black1">
+                            <span>Contact Us</span></div>
+                    </a>
+                </div>
+            </div>
+            <div class="pt-[5vw] font-heading fadeup tablet:pt-[15%]">
+                <div class="flex tablet:block tablet:text-center">
+                    <div class="w-1/2 tablet:w-full">
+                        <div class="space-y-[1vw] w-fit tablet:space-y-[2.5vw] tablet:w-full">
+                            <h6 class="text-[1.15vw] font-normal text-gray2 tablet:text-[3.5vw]">mail us</h6>
+                            <div data-cursor-size="80px" data-cursor-exclusion="true"><a
+                                    class="en-link-under text-[1.5vw] tablet:text-[4.5vw]"
+                                    href="mailto:hi@wearenivaro.com"><span
+                                        class="!font-normal">hi@wearenivaro.com</span></a></div>
+                        </div>
+                        <div
+                            class="space-y-[1vw] w-fit pt-[2.5vw] tablet:pt-[15%] tablet:space-y-[2.5vw] tablet:w-full">
+                            <h6 class="text-[1.15vw] font-normal text-gray2 tablet:text-[3.5vw]">for new business</h6>
+                            <div data-cursor-size="80px" data-cursor-exclusion="true"><a
+                                    class="en-main-link text-[1.5vw] tablet:text-[4.5vw]"
+                                    href="tel:+91 8178 026 136"><span data-text="+91 8178 026 136">+91 8178 026
+                                        136</span></a></div>
+                        </div>
+                    </div>
+                    <div class="w-1/2 tablet:w-full tablet:pt-[15%]">
+                        <h6 class="text-[1.15vw] font-normal text-gray2 pb-[2vw] tablet:text-[3.5vw] tablet:pb-[2.5vw]">
+                            let&#x27;s be friends</h6>
+                        <div
+                            class="grid grid-cols-3 items-end w-full gap-y-[2vw] gap-x-[8vw] tablet:justify-items-center">
+                            <div class="w-fit" data-cursor-exclusion="true" data-cursor-size="80px"><a
+                                    class="en-main-link text-[1.5vw] tablet:text-[4vw] mobile:text-[4.8vw]"
+                                    target="blank" rel="nofollow, noreferrer"
+                                    href="https://www.facebook.com/in.nivarodigital"><span
+                                        data-text="Facebook">Facebook</span></a></div>
+                            <div class="w-fit" data-cursor-exclusion="true" data-cursor-size="80px"><a
+                                    class="en-main-link text-[1.5vw] tablet:text-[4vw] mobile:text-[4.8vw]"
+                                    target="blank" rel="nofollow, noreferrer"
+                                    href="https://www.instagram.com/nivarodigital/"><span
+                                        data-text="Instagram">Instagram</span></a></div>
+                            <div class="w-fit" data-cursor-exclusion="true" data-cursor-size="80px"><a
+                                    class="en-main-link text-[1.5vw] tablet:text-[4vw] mobile:text-[4.8vw]"
+                                    target="blank" rel="nofollow, noreferrer"
+                                    href="https://twitter.com/_NivaroDigital"><span
+                                        data-text="Twitter">Twitter</span></a></div>
+                            <div class="w-fit" data-cursor-exclusion="true" data-cursor-size="80px"><a
+                                    class="en-main-link text-[1.5vw] tablet:text-[4vw] mobile:text-[4.8vw]"
+                                    target="blank" rel="nofollow, noreferrer"
+                                    href="https://in.linkedin.com/company/nivaro-digital-product-design-ui-ux-neuromarketing"><span
+                                        data-text="LinkedIn">LinkedIn</span></a></div>
+                            <div class="w-fit" data-cursor-exclusion="true" data-cursor-size="80px"><a
+                                    class="en-main-link text-[1.5vw] tablet:text-[4vw] mobile:text-[4.8vw]"
+                                    target="blank" rel="nofollow, noreferrer"
+                                    href="https://www.behance.net/nivaro-digital"><span
+                                        data-text="Behance">Behance</span></a></div>
+                            <div class="w-fit" data-cursor-exclusion="true" data-cursor-size="80px"><a
+                                    class="en-main-link text-[1.5vw] tablet:text-[4vw] mobile:text-[4.8vw]"
+                                    target="blank" rel="nofollow, noreferrer" href="https://www.youtube.com/"><span
+                                        data-text="Youtube">Youtube</span></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-fit mx-auto pt-[2vw] tablet:pt-[15%] tablet:w-full text-center">
+                <p
+                    class="text-[1vw] text-gray2 tracking-[1px] tablet:text-[3vw] tablet:border-t border-slate-300 tablet:pt-[3vw]">
+                    © 2025 Nivaro Digital Consulting, LLP. All Rights Reserved. All Wrongs Reversed.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="fixed top-0 left-0 right-0 bottom-0 z-[999] flex oveflow-hidden items-center justify-center bg-transparent"
+        id="loader">
+        <div class="mainLoaderBg flex w-screen h-screen absolute"><span class="mainLoaderBar w-1/5 h-full bg-black"
+                id="loaderbars"></span><span class="mainLoaderBar w-1/5 h-full bg-black" id="loaderbars"></span><span
+                class="mainLoaderBar w-1/5 h-full bg-black" id="loaderbars"></span><span
+                class="mainLoaderBar w-1/5 h-full bg-black" id="loaderbars"></span><span
+                class="mainLoaderBar w-1/5 h-full bg-black" id="loaderbars"></span></div>
+        <div class="loader-wrap-heading tablet:p-[5%] mobile:p-[2.5%]"><span class="overflow-hidden inline-flex">
+                <p
+                    class="font-heading text-white1 skew-y-6 translate-y-full capitalize z-[20] text-[48px] mobile:text-[32px]">
+                    Careers At Nivaro</p>
+            </span></div>
+    </div><!--$--><!--/$--><!--$!--><template data-dgst="BAILOUT_TO_CLIENT_SIDE_RENDERING"></template><!--/$-->
+    <script src="_next/static/chunks/webpack-a2af136bdf42db30.js" async=""></script>
+    <script>(self.__next_f = self.__next_f || []).push([0])</script>
+    <script>self.__next_f.push([1, "1:\"$Sreact.fragment\"\n2:I[87555,[],\"\"]\n3:I[31295,[],\"\"]\n4:I[31539,[\"5592\",\"static/chunks/c15bf2b0-9b47df8245c6c35a.js\",\"802\",\"static/chunks/802-eeebe957aeefab67.js\",\"735\",\"static/chunks/735-2553b518e0150d17.js\",\"1720\",\"static/chunks/1720-849ad249c2e002db.js\",\"9309\",\"static/chunks/9309-1e365566bb62c06d.js\",\"5541\",\"static/chunks/5541-55ab2e6b7c9e3e17.js\",\"4527\",\"static/chunks/4527-735696e9dfd6db4d.js\",\"3998\",\"static/chunks/3998-c31203bf7919fabc.js\",\"3846\",\"static/chunks/app/careers/page-d4fcc85b55dc9254.js\"],\"Cursor\"]\n5:I[48031,[\"7177\",\"static/chunks/app/layout-cae246b225935868.js\"],\"SpeedInsights\"]\n6:I[31828,[\"7177\",\"static/chunks/app/layout-cae246b225935868.js\"],\"Analytics\"]\n7:I[69243,[\"7177\",\"static/chunks/app/layout-cae246b225935868.js\"],\"\"]\n8:I[96063,[\"7177\",\"static/chunks/app/layout-cae246b225935868.js\"],\"GoogleTagManager\"]\na:I[59665,[],\"OutletBoundary\"]\nd:I[74911,[],\"AsyncMetadataOutlet\"]\nf:I[59665,[],\"ViewportBoundary\"]\n11:I[59665,[],\"MetadataBoundary\"]\n13:I[26614,[],\"\"]\n:HL[\"/_next/static/css/b9252787244d20b8.css\",\"style\"]\n:HL[\"/_next/static/css/ea18e4f5c9a14a19.css\",\"style\"]\n"])</script>
+    <script>self.__next_f.push([1, "0:{\"P\":null,\"b\":\"I0BrRxcv5ZVXwmteD7aWt\",\"p\":\"\",\"c\":[\"\",\"careers\"],\"i\":false,\"f\":[[[\"\",{\"children\":[\"careers\",{\"children\":[\"__PAGE__\",{}]}]},\"$undefined\",\"$undefined\",true],[\"\",[\"$\",\"$1\",\"c\",{\"children\":[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/b9252787244d20b8.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[\"$\",\"body\",null,{\"children\":[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[[\"$\",\"$L4\",null,{}],[\"$\",\"section\",null,{\"children\":[\"$\",\"div\",null,{\"className\":\"__404_container__natjV\",\"children\":[[\"$\",\"div\",null,{\"className\":\"__404_gifBox__Fer8R\",\"children\":[\"$\",\"video\",null,{\"loop\":true,\"muted\":true,\"autoPlay\":true,\"src\":\"/assets/404/what.mp4\",\"width\":300,\"height\":250}]}],[\"$\",\"div\",null,{\"className\":\"__404_box__TrJKg\",\"children\":[[\"$\",\"h1\",null,{\"className\":\"__404_fourZeroFour__cZW33\",\"children\":\"404\"}],[\"$\",\"h2\",null,{\"className\":\"__404_paraText__mGl8C\",\"children\":\"The page you are looking for doesn't exist or has been moved. Please go back to the homepage.\"}],[\"$\",\"div\",null,{\"className\":\"mt-10 fadeup\",\"id\":\"anim\",\"children\":[\"$\",\"a\",null,{\"href\":\"/\",\"className\":\"group inline-flex items-center justify-center overflow-hidden rounded-full leading-[1] font-medium text-[1.6vw] tablet:text-[4vw] mobile:text-[6vw] px-10 py-4 relative border uppercase\",\"children\":[[\"$\",\"span\",null,{\"className\":\"btn_CTA-ripple block w-full h-full bg-current absolute translate-y-full rounded-tl-[50%] rounded-tr-[50%] group-hover:translate-y-0 group-hover:rounded-[0] duration-500 ease-in-out\"}],[\"$\",\"span\",null,{\"className\":\"relative z-10 group-hover:text-white duration-500\",\"children\":\"Go Back Home\"}]]}]}]]}]]}]}]],[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/19ffb19833a83830.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]]],\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]}]}],[\"$\",\"$L5\",null,{}],[\"$\",\"$L6\",null,{}],[\"$\",\"$L7\",null,{\"id\":\"ms-clarity\",\"children\":\"\\n            (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src=\\\"https://www.clarity.ms/tag/\\\"+i+\\\"?ref=bwt\\\";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, \\\"clarity\\\", \\\"script\\\", \\\"josmn10ai7\\\");\\n          \"}],[\"$\",\"$L8\",null,{\"gtmId\":\"GTM-PV4GH9JJ\"}]]]}],{\"children\":[\"careers\",[\"$\",\"$1\",\"c\",{\"children\":[null,[\"$\",\"$L2\",null,{\"parallelRouterKey\":\"children\",\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L3\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"forbidden\":\"$undefined\",\"unauthorized\":\"$undefined\"}]]}],{\"children\":[\"__PAGE__\",[\"$\",\"$1\",\"c\",{\"children\":[\"$L9\",[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/ea18e4f5c9a14a19.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\",\"nonce\":\"$undefined\"}]],[\"$\",\"$La\",null,{\"children\":[\"$Lb\",\"$Lc\",[\"$\",\"$Ld\",null,{\"promise\":\"$@e\"}]]}]]}],{},null,false]},null,false]},null,false],[\"$\",\"$1\",\"h\",{\"children\":[null,[\"$\",\"$1\",\"E9LmRLh3YV4X34bo-_0sBv\",{\"children\":[[\"$\",\"$Lf\",null,{\"children\":\"$L10\"}],null]}],[\"$\",\"$L11\",null,{\"children\":\"$L12\"}]]}],false]],\"m\":\"$undefined\",\"G\":[\"$13\",\"$undefined\"],\"s\":false,\"S\":true}\n"])</script>
+    <script>self.__next_f.push([1, "14:\"$Sreact.suspense\"\n15:I[74911,[],\"AsyncMetadata\"]\n12:[\"$\",\"div\",null,{\"hidden\":true,\"children\":[\"$\",\"$14\",null,{\"fallback\":null,\"children\":[\"$\",\"$L15\",null,{\"promise\":\"$@16\"}]}]}]\nc:null\n"])</script>
+    <script>self.__next_f.push([1, "10:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\nb:null\n"])</script>
+    <script>self.__next_f.push([1, "e:{\"metadata\":[[\"$\",\"title\",\"0\",{\"children\":\"Careers in Design, Tech \u0026 Marketing | Current Openings\"}],[\"$\",\"meta\",\"1\",{\"name\":\"description\",\"content\":\"Explore exciting roles in UI/UX Design, Front-End Development, Digital Marketing, Business Development, and more. Impactful work in a collaborative environment.\"}],[\"$\",\"meta\",\"2\",{\"name\":\"robots\",\"content\":\"index, follow\"}],[\"$\",\"link\",\"3\",{\"rel\":\"canonical\",\"href\":\"https://wearenivaro.com/careers\"}],[\"$\",\"link\",\"4\",{\"rel\":\"alternate\",\"hrefLang\":\"hrefLang\",\"href\":\"en-US\"}],[\"$\",\"link\",\"5\",{\"rel\":\"alternate\",\"hrefLang\":\"href\",\"href\":\"https://wearenivaro.com/careers\"}],[\"$\",\"link\",\"6\",{\"rel\":\"alternate\",\"type\":\"application/rss+xml\",\"href\":\"https://wearenivaro.com/feed.xml\"}],[\"$\",\"meta\",\"7\",{\"name\":\"google-site-verification\",\"content\":\"aqmk50ZtfefKhtzh9Fr2VOpKByQGeMyL60rwwgl-r7A\"}],[\"$\",\"meta\",\"8\",{\"property\":\"og:title\",\"content\":\"Careers in Design, Tech \u0026 Marketing | Current Openings\"}],[\"$\",\"meta\",\"9\",{\"property\":\"og:description\",\"content\":\"Explore exciting roles in UI/UX Design, Front-End Development, Digital Marketing, Business Development, and more. Impactful work in a collaborative environment.\"}],[\"$\",\"meta\",\"10\",{\"property\":\"og:url\",\"content\":\"https://wearenivaro.com/careers\"}],[\"$\",\"meta\",\"11\",{\"property\":\"og:locale\",\"content\":\"en_US\"}],[\"$\",\"meta\",\"12\",{\"property\":\"og:image\",\"content\":\"https://wearenivaro.com/assets/seo/career.png\"}],[\"$\",\"meta\",\"13\",{\"property\":\"og:image:width\",\"content\":\"1200\"}],[\"$\",\"meta\",\"14\",{\"property\":\"og:image:height\",\"content\":\"630\"}],[\"$\",\"meta\",\"15\",{\"property\":\"og:image:alt\",\"content\":\"Page Og Image\"}],[\"$\",\"meta\",\"16\",{\"property\":\"og:image:type\",\"content\":\"image/png\"}],[\"$\",\"meta\",\"17\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"$\",\"meta\",\"18\",{\"name\":\"twitter:card\",\"content\":\"summary_large_image\"}],[\"$\",\"meta\",\"19\",{\"name\":\"twitter:site\",\"content\":\"Nivaro Digital Agency\"}],[\"$\",\"meta\",\"20\",{\"name\":\"twitter:title\",\"content\":\"Careers in Design, Tech \u0026 Marketing | Current Openings\"}],[\"$\",\"meta\",\"21\",{\"name\":\"twitter:description\",\"content\":\"Explore exciting roles in UI/UX Design, Front-End Development, Digital Marketing, Business Development, and more. Impactful work in a collaborative environment.\"}],[\"$\",\"meta\",\"22\",{\"name\":\"twitter:image\",\"content\":\"https://wearenivaro.com/assets/seo/career.png\"}]],\"error\":null,\"digest\":\"$undefined\"}\n"])</script>
+    <script>self.__next_f.push([1, "16:{\"metadata\":\"$e:metadata\",\"error\":null,\"digest\":\"$undefined\"}\n"])</script>
+    <script>self.__next_f.push([1, "18:I[75841,[\"5592\",\"static/chunks/c15bf2b0-9b47df8245c6c35a.js\",\"802\",\"static/chunks/802-eeebe957aeefab67.js\",\"735\",\"static/chunks/735-2553b518e0150d17.js\",\"1720\",\"static/chunks/1720-849ad249c2e002db.js\",\"9309\",\"static/chunks/9309-1e365566bb62c06d.js\",\"5541\",\"static/chunks/5541-55ab2e6b7c9e3e17.js\",\"4527\",\"static/chunks/4527-735696e9dfd6db4d.js\",\"3998\",\"static/chunks/3998-c31203bf7919fabc.js\",\"3846\",\"static/chunks/app/careers/page-d4fcc85b55dc9254.js\"],\"ReactLenis\"]\n19:I[39999,[\"5592\",\"static/chunks/c15bf2b0-9b47df8245c6c35a.js\",\"802\",\"static/chunks/802-eeebe957aeefab67.js\",\"735\",\"static/chunks/735-2553b518e0150d17.js\",\"1720\",\"static/chunks/1720-849ad249c2e002db.js\",\"9309\",\"static/chunks/9309-1e365566bb62c06d.js\",\"5541\",\"static/chunks/5541-55ab2e6b7c9e3e17.js\",\"4527\",\"static/chunks/4527-735696e9dfd6db4d.js\",\"3998\",\"static/chunks/3998-c31203bf7919fabc.js\",\"3846\",\"static/chunks/app/careers/page-d4fcc85b55dc9254.js\"],\"default\"]\n1a:I[36521,[\"5592\",\"static/chunks/c15bf2b0-9b47df8245c6c35a.js\",\"802\",\"static/chunks/802-eeebe957aeefab67.js\",\"735\",\"static/chunks/735-2553b518e0150d17.js\",\"1720\",\"static/chunks/1720-849ad249c2e002db.js\",\"9309\",\"static/chunks/9309-1e365566bb62c06d.js\",\"5541\",\"static/chunks/5541-55ab2e6b7c9e3e17.js\",\"4527\",\"static/chunks/4527-735696e9dfd6db4d.js\",\"3998\",\"static/chunks/3998-c31203bf7919fabc.js\",\"3846\",\"static/chunks/app/careers/page-d4fcc85b55dc9254.js\"],\"MediaContextProvider\"]\n1b:I[54930,[\"5592\",\"static/chunks/c15bf2b0-9b47df8245c6c35a.js\",\"802\",\"static/chunks/802-eeebe957aeefab67.js\",\"735\",\"static/chunks/735-2553b518e0150d17.js\",\"1720\",\"static/chunks/1720-849ad249c2e002db.js\",\"9309\",\"static/chunks/9309-1e365566bb62c06d.js\",\"5541\",\"static/chunks/5541-55ab2e6b7c9e3e17.js\",\"4527\",\"static/chunks/4527-735696e9dfd6db4d.js\",\"3998\",\"static/chunks/3998-c31203bf7919fabc.js\",\"3846\",\"static/chunks/app/careers/page-d4fcc85b55dc9254.js\"],\"default\"]\n1c:I[35200,[\"5592\",\"static/chunks/c15bf2b0-9b47df8245c6c35a.js\",\"802\",\"static/chunks/802-eeebe957aeefab67.js\",\"735\",\"static/chunks/735-2553b518e0150d17.js\",\"172"])</script>
+    <script>self.__next_f.push([1, "0\",\"static/chunks/1720-849ad249c2e002db.js\",\"9309\",\"static/chunks/9309-1e365566bb62c06d.js\",\"5541\",\"static/chunks/5541-55ab2e6b7c9e3e17.js\",\"4527\",\"static/chunks/4527-735696e9dfd6db4d.js\",\"3998\",\"static/chunks/3998-c31203bf7919fabc.js\",\"3846\",\"static/chunks/app/careers/page-d4fcc85b55dc9254.js\"],\"default\"]\n1d:I[34289,[\"5592\",\"static/chunks/c15bf2b0-9b47df8245c6c35a.js\",\"802\",\"static/chunks/802-eeebe957aeefab67.js\",\"735\",\"static/chunks/735-2553b518e0150d17.js\",\"1720\",\"static/chunks/1720-849ad249c2e002db.js\",\"9309\",\"static/chunks/9309-1e365566bb62c06d.js\",\"5541\",\"static/chunks/5541-55ab2e6b7c9e3e17.js\",\"4527\",\"static/chunks/4527-735696e9dfd6db4d.js\",\"3998\",\"static/chunks/3998-c31203bf7919fabc.js\",\"3846\",\"static/chunks/app/careers/page-d4fcc85b55dc9254.js\"],\"default\"]\n1e:I[6874,[\"5592\",\"static/chunks/c15bf2b0-9b47df8245c6c35a.js\",\"802\",\"static/chunks/802-eeebe957aeefab67.js\",\"735\",\"static/chunks/735-2553b518e0150d17.js\",\"1720\",\"static/chunks/1720-849ad249c2e002db.js\",\"9309\",\"static/chunks/9309-1e365566bb62c06d.js\",\"5541\",\"static/chunks/5541-55ab2e6b7c9e3e17.js\",\"4527\",\"static/chunks/4527-735696e9dfd6db4d.js\",\"3998\",\"static/chunks/3998-c31203bf7919fabc.js\",\"3846\",\"static/chunks/app/careers/page-d4fcc85b55dc9254.js\"],\"\"]\n1f:I[33063,[\"5592\",\"static/chunks/c15bf2b0-9b47df8245c6c35a.js\",\"802\",\"static/chunks/802-eeebe957aeefab67.js\",\"735\",\"static/chunks/735-2553b518e0150d17.js\",\"1720\",\"static/chunks/1720-849ad249c2e002db.js\",\"9309\",\"static/chunks/9309-1e365566bb62c06d.js\",\"5541\",\"static/chunks/5541-55ab2e6b7c9e3e17.js\",\"4527\",\"static/chunks/4527-735696e9dfd6db4d.js\",\"3998\",\"static/chunks/3998-c31203bf7919fabc.js\",\"3846\",\"static/chunks/app/careers/page-d4fcc85b55dc9254.js\"],\"Image\"]\n20:I[36521,[\"5592\",\"static/chunks/c15bf2b0-9b47df8245c6c35a.js\",\"802\",\"static/chunks/802-eeebe957aeefab67.js\",\"735\",\"static/chunks/735-2553b518e0150d17.js\",\"1720\",\"static/chunks/1720-849ad249c2e002db.js\",\"9309\",\"static/chunks/9309-1e365566bb62c06d.js\",\"5541\",\"static/chunks/5541-55ab2e6b7c9e3e17.js\",\"4527\",\"static/chunks/4527-735696e9dfd6db4d.js"])</script>
+    <script>self.__next_f.push([1, "\",\"3998\",\"static/chunks/3998-c31203bf7919fabc.js\",\"3846\",\"static/chunks/app/careers/page-d4fcc85b55dc9254.js\"],\"Media\"]\n21:I[29562,[\"5592\",\"static/chunks/c15bf2b0-9b47df8245c6c35a.js\",\"802\",\"static/chunks/802-eeebe957aeefab67.js\",\"735\",\"static/chunks/735-2553b518e0150d17.js\",\"1720\",\"static/chunks/1720-849ad249c2e002db.js\",\"9309\",\"static/chunks/9309-1e365566bb62c06d.js\",\"5541\",\"static/chunks/5541-55ab2e6b7c9e3e17.js\",\"4527\",\"static/chunks/4527-735696e9dfd6db4d.js\",\"3998\",\"static/chunks/3998-c31203bf7919fabc.js\",\"3846\",\"static/chunks/app/careers/page-d4fcc85b55dc9254.js\"],\"default\"]\n22:I[23459,[\"5592\",\"static/chunks/c15bf2b0-9b47df8245c6c35a.js\",\"802\",\"static/chunks/802-eeebe957aeefab67.js\",\"735\",\"static/chunks/735-2553b518e0150d17.js\",\"1720\",\"static/chunks/1720-849ad249c2e002db.js\",\"9309\",\"static/chunks/9309-1e365566bb62c06d.js\",\"5541\",\"static/chunks/5541-55ab2e6b7c9e3e17.js\",\"4527\",\"static/chunks/4527-735696e9dfd6db4d.js\",\"3998\",\"static/chunks/3998-c31203bf7919fabc.js\",\"3846\",\"static/chunks/app/careers/page-d4fcc85b55dc9254.js\"],\"default\"]\n17:T69f,{\"@context\":\"https://schema.org/\",\"@type\":\"ItemList\",\"itemListElement\":[{\"@type\":\"SiteNavigationElement\",\"position\":1,\"name\":\"About\",\"description\":\"Nivaro is a team of creators, discoverers, dreamers, \u0026 doers, crafting exceptional digital experiences. We are India's leading UI UX design \u0026 marketing agency.\",\"url\":\"https://wearenivaro.com/who-we-are\"},{\"@type\":\"SiteNavigationElement\",\"position\":2,\"name\":\"Services\",\"description\":\"Nivaro offers UI UX design, Web Design, Mobile App Design, Frontend Development and Organic Digital Marketing Services. See how we can help your business grow.\",\"url\":\"https://wearenivaro.com/services\"},{\"@type\":\"SiteNavigationElement\",\"position\":3,\"name\":\"Works\",\"description\":\"Explore Nivaro's portfolio, a showcase of our diverse services in UI/UX design, branding, and web development, driving exceptional results.\",\"url\":\"https://wearenivaro.com/our-portfolio\"},{\"@type\":\"SiteNavigationElement\",\"position\":4,\"name\":\"Insights\",\"description\":\"Dive i"])</script>
+    <script>self.__next_f.push([1, "nto our curated collection of articles on UI/UX Design, Digital Marketing, Technology \u0026 Human Psychology. Stay updated with the latest trends.\",\"url\":\"https://wearenivaro.com/blog\"},{\"@type\":\"SiteNavigationElement\",\"position\":5,\"name\":\"Careers\",\"description\":\"Experience top-tier UI/UX design, front-end development, and organic marketing jobs with Nivaro Digital. Find The Right Jobs\",\"url\":\"https://wearenivaro.com/careers\"},{\"@type\":\"SiteNavigationElement\",\"position\":6,\"name\":\"Contact\",\"description\":\"Contact Nivaro for top-tier UI/UX design, front-end development, and organic digital marketing solutions. Let's collaborate and ascend your digital presence.\",\"url\":\"https://wearenivaro.com/get-in-touch\"}]}"])</script>
+    <script>self.__next_f.push([1, "9:[[\"$\",\"script\",null,{\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"{\\\"@context\\\":\\\"https://schema.org/\\\",\\\"@type\\\":\\\"WebPage\\\",\\\"@id\\\":\\\"careers.html#webpage\\\",\\\"url\\\":\\\"careers.html\\\",\\\"name\\\":\\\"Careers in Design, Tech \u0026 Marketing | Current Openings\\\",\\\"description\\\":\\\"Explore exciting roles in UI/UX Design, Front-End Development, Digital Marketing, Business Development, and more. Impactful work in a collaborative environment.\\\",\\\"datePublished\\\":\\\"2023-01-01T00:00\\\",\\\"dateModified\\\":\\\"2024-12-25T00:00\\\",\\\"publisher\\\":{\\\"@type\\\":\\\"Organization\\\",\\\"name\\\":\\\"Nivaro Digital Agency\\\",\\\"logo\\\":{\\\"@type\\\":\\\"ImageObject\\\",\\\"url\\\":\\\"https://wearenivaro.com/nivaro-logo.png\\\"}},\\\"about\\\":{\\\"@id\\\":\\\"https://wearenivaro.com/careers#organization\\\"},\\\"isPartOf\\\":{\\\"@id\\\":\\\"https://wearenivaro.com/careers#website\\\"},\\\"inLanguage\\\":\\\"en_US\\\"}\"}}],[[\"$\",\"script\",null,{\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"{\\\"@context\\\":\\\"https://schema.org/\\\",\\\"@type\\\":\\\"Organization\\\",\\\"@id\\\":\\\"index.html#organization\\\",\\\"name\\\":\\\"Nivaro Digital Agency\\\",\\\"description\\\":\\\"Nivaro is India's Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and Neuromarketing Strategies to Create Digital Products that People Love to Use.\\\",\\\"url\\\":\\\"index.html\\\",\\\"telephone\\\":\\\"+91 8178 026 136\\\",\\\"email\\\":\\\"hi@wearenivaro.com\\\",\\\"address\\\":{\\\"@type\\\":\\\"PostalAddress\\\",\\\"streetAddress\\\":\\\"#301, Tower A, Grandslam Ithum\\\",\\\"addressLocality\\\":\\\"Sector-62\\\",\\\"addressRegion\\\":\\\"Noida, Uttar Pradesh\\\",\\\"postalCode\\\":\\\"201301\\\",\\\"addressCountry\\\":\\\"IN\\\"},\\\"logo\\\":\\\"nivaro-logo.png\\\",\\\"sameAs\\\":[\\\"https://www.instagram.com/nivarodigital/\\\",\\\"https://in.linkedin.com/company/nivaro-digital-product-design-ui-ux-neuromarketing\\\",\\\"https://www.facebook.com/in.nivarodigital\\\",\\\"https://twitter.com/_NivaroDigital\\\"]}\"}}],[\"$\",\"script\",null,{\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"{\\\"@context\\\":\\\"https://schema.org/\\\",\\\"@type\\\":\\\"WebSite\\\",\\\"@id\\\":\\\"index.html#website\\\",\\\"name\\\":\\\"Nivaro Digital Agency\\\",\\\"url\\\":\\\"index.html\\\",\\\"copyrightYear\\\":2025,\\\"inLanguage\\\":\\\"en-US\\\",\\\"publisher\\\":[{\\\"@id\\\":\\\"https://wearenivaro.com/#organization\\\"}]}\"}}],[\"$\",\"script\",null,{\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"$17\"}}],[\"$\",\"script\",null,{\"type\":\"application/ld+json\",\"dangerouslySetInnerHTML\":{\"__html\":\"{\\\"@context\\\":\\\"https://schema.org/\\\",\\\"@type\\\":\\\"ImageObject\\\",\\\"@id\\\":\\\"assets/seo/index.png\\\",\\\"url\\\":\\\"assets/seo/index.png\\\",\\\"width\\\":\\\"1200\\\",\\\"height\\\":\\\"630\\\",\\\"inLanguage\\\":\\\"en-US\\\"}\"}}],[\"$\",\"$L18\",null,{\"root\":true,\"option\":{\"lerp\":0.05},\"children\":[[\"$\",\"$L19\",null,{}],[\"$\",\"$L1a\",null,{\"children\":[[\"$\",\"main\",null,{\"style\":{\"cursor\":\"none\"},\"children\":[[\"$\",\"$L1b\",null,{}],[\"$\",\"$L1c\",null,{}],[\"$\",\"$L1d\",null,{}],[\"$\",\"section\",null,{\"id\":\"job-listing\",\"children\":[\"$\",\"div\",null,{\"className\":\"w-[75%] mx-auto py-[10vw] tablet:w-[85%]\",\"children\":[[\"$\",\"div\",null,{\"className\":\"text-center\",\"children\":[[\"$\",\"h4\",null,{\"className\":\"leading-[1.2] text-[3.5vw] mobile:text-4xl tablet:text-[7vw] font-medium mb-3 font-heading title-anim\",\"children\":[\"Current\",[\"$\",\"span\",null,{\"className\":\"text-primary\",\"children\":\" Openings\"}]]}],[\"$\",\"p\",null,{\"className\":\"text-black2 text-xl tablet:text-2xl mobile:text-xl tracking-wide para-anim\",\"children\":\"An invitation to be part of a visionary tribe that's shaping the digital future.\"}]]}],[\"$\",\"div\",null,{\"className\":\"mt-20 grid grid-cols-3 gap-[2.5%] tablet:grid-cols-2 tablet:gap-8 mobile:grid-cols-1\",\"children\":[[\"$\",\"div\",\"0\",{\"className\":\"w-full h-full fadeup\",\"children\":[\"$\",\"$L1e\",null,{\"href\":\"/careers/senior-account-executive\",\"className\":\"relative shadow-lg px-7 py-10 space-y-10 duration-300 rounded-2xl dark:bg-white2 hover:bg-white group grid grid-rows-[auto auto auto auto] h-full tablet:space-y-8 \",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-start gap-[1vw] mobile:gap-4\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-[5vw] tablet:w-[10vw] mobile:w-[18vw]\",\"alt\":\"Career Listing Image\",\"src\":\"https://cdn.sanity.io/images/gzupotgr/production/ed730be303fefaf16dd6b12b07c357272ab28506-256x256.webp\",\"width\":100,\"height\":100}],[\"$\",\"h5\",null,{\"className\":\"font-medium text-2xl font-heading group-hover:underline\",\"children\":\"Senior Account Executive\"}]]}],[\"$\",\"div\",null,{\"className\":\"text-lg leading-[1.2]\",\"dangerouslySetInnerHTML\":{\"__html\":\"Ready to play a pivotal role in our continued growth and success worldwide?\"}}],[\"$\",\"div\",null,{\"className\":\"mb-2\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex items-center gap-4 h-full\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col h-full justify-between pb-1 gap-2\",\"children\":[[\"$\",\"div\",\"0\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-1.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"Full-time\"}]]}],[\"$\",\"div\",\"1\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-2.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"Flexible Hours\"}]]}],[\"$\",\"div\",\"2\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-3.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"On-site\"}]]}],[\"$\",\"div\",\"3\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-4.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"2 – 5 years experience\"}]]}]]}]}]}],[\"$\",\"div\",null,{\"className\":\"block group-hover:bg-primary h-fit group-hover:shadow-lg duration-300 text-primary group-hover:text-white border-primary border-2 rounded-full py-2 px-10 tablet:py-3 tablet:px-6\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex gap-3 items-center justify-center h-fit\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-medium text-xl tablet:text-2xl mobile:text-xl\",\"children\":\"View Details\"}],[\"$\",\"svg\",null,{\"className\":\"w-7 h-7\",\"viewBox\":\"0 0 24 24\",\"fill\":\"currentColor\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"children\":[\"$\",\"g\",null,{\"id\":\"style=stroke\",\"children\":[\"$\",\"g\",null,{\"id\":\"arrow-long-right\",\"children\":[[\"$\",\"path\",null,{\"id\":\"vector (Stroke)\",\"fillRule\":\"evenodd\",\"clipRule\":\"evenodd\",\"d\":\"M1.94995 12C1.94995 12.4142 2.28574 12.75 2.69995 12.75L21.2 12.75C21.6142 12.75 21.95 12.4142 21.95 12C21.95 11.5858 21.6142 11.25 21.2 11.25L2.69995 11.25C2.28574 11.25 1.94995 11.5858 1.94995 12Z\"}],[\"$\",\"path\",null,{\"id\":\"vector (Stroke)_2\",\"fillRule\":\"evenodd\",\"clipRule\":\"evenodd\",\"d\":\"M14.1696 4.46967C13.8767 4.76256 13.8767 5.23744 14.1696 5.53033L20.4625 11.8232C20.5601 11.9209 20.5601 12.0791 20.4625 12.1768L14.1696 18.4697C13.8767 18.7626 13.8767 19.2374 14.1696 19.5303C14.4625 19.8232 14.9374 19.8232 15.2303 19.5303L21.5232 13.2374C22.2066 12.554 22.2066 11.446 21.5232 10.7626L15.2303 4.46967C14.9374 4.17678 14.4625 4.17678 14.1696 4.46967Z\"}]]}]}]}]]}]}],[\"$\",\"div\",null,{\"className\":\"absolute text-lg font-heading top-4 right-4 text-white px-2 rounded !mt-0 job-Hot\",\"children\":[\"$\",\"span\",null,{\"children\":\"Hot\"}]}]]}]}],[\"$\",\"div\",\"1\",{\"className\":\"w-full h-full fadeup\",\"children\":[\"$\",\"$L1e\",null,{\"href\":\"/careers/seo-specialist\",\"className\":\"relative shadow-lg px-7 py-10 space-y-10 duration-300 rounded-2xl dark:bg-white2 hover:bg-white group grid grid-rows-[auto auto auto auto] h-full tablet:space-y-8 \",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-start gap-[1vw] mobile:gap-4\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-[5vw] tablet:w-[10vw] mobile:w-[18vw]\",\"alt\":\"Career Listing Image\",\"src\":\"https://cdn.sanity.io/images/gzupotgr/production/f755579d24343b31d8f77e2be222c5cc6c2fad02-256x256.webp\",\"width\":100,\"height\":100}],[\"$\",\"h5\",null,{\"className\":\"font-medium text-2xl font-heading group-hover:underline\",\"children\":\"SEO Specialist\"}]]}],[\"$\",\"div\",null,{\"className\":\"text-lg leading-[1.2]\",\"dangerouslySetInnerHTML\":{\"__html\":\"Are you passionate about SEO and eager to drive digital excellence?\"}}],[\"$\",\"div\",null,{\"className\":\"mb-2\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex items-center gap-4 h-full\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col h-full justify-between pb-1 gap-2\",\"children\":[[\"$\",\"div\",\"0\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-1.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"Full-time\"}]]}],[\"$\",\"div\",\"1\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-2.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"Flexible Hours\"}]]}],[\"$\",\"div\",\"2\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-3.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"On-site\"}]]}],[\"$\",\"div\",\"3\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-4.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"2 – 4 years experience\"}]]}]]}]}]}],[\"$\",\"div\",null,{\"className\":\"block group-hover:bg-primary h-fit group-hover:shadow-lg duration-300 text-primary group-hover:text-white border-primary border-2 rounded-full py-2 px-10 tablet:py-3 tablet:px-6\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex gap-3 items-center justify-center h-fit\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-medium text-xl tablet:text-2xl mobile:text-xl\",\"children\":\"View Details\"}],[\"$\",\"svg\",null,{\"className\":\"w-7 h-7\",\"viewBox\":\"0 0 24 24\",\"fill\":\"currentColor\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"children\":[\"$\",\"g\",null,{\"id\":\"style=stroke\",\"children\":[\"$\",\"g\",null,{\"id\":\"arrow-long-right\",\"children\":[[\"$\",\"path\",null,{\"id\":\"vector (Stroke)\",\"fillRule\":\"evenodd\",\"clipRule\":\"evenodd\",\"d\":\"M1.94995 12C1.94995 12.4142 2.28574 12.75 2.69995 12.75L21.2 12.75C21.6142 12.75 21.95 12.4142 21.95 12C21.95 11.5858 21.6142 11.25 21.2 11.25L2.69995 11.25C2.28574 11.25 1.94995 11.5858 1.94995 12Z\"}],[\"$\",\"path\",null,{\"id\":\"vector (Stroke)_2\",\"fillRule\":\"evenodd\",\"clipRule\":\"evenodd\",\"d\":\"M14.1696 4.46967C13.8767 4.76256 13.8767 5.23744 14.1696 5.53033L20.4625 11.8232C20.5601 11.9209 20.5601 12.0791 20.4625 12.1768L14.1696 18.4697C13.8767 18.7626 13.8767 19.2374 14.1696 19.5303C14.4625 19.8232 14.9374 19.8232 15.2303 19.5303L21.5232 13.2374C22.2066 12.554 22.2066 11.446 21.5232 10.7626L15.2303 4.46967C14.9374 4.17678 14.4625 4.17678 14.1696 4.46967Z\"}]]}]}]}]]}]}],[\"$\",\"div\",null,{\"className\":\"absolute text-lg font-heading top-4 right-4 text-white px-2 rounded !mt-0 job-Hot\",\"children\":[\"$\",\"span\",null,{\"children\":\"Hot\"}]}]]}]}]]}]]}]}],[\"$\",\"section\",null,{\"id\":\"listing\",\"children\":[\"$\",\"div\",null,{\"className\":\"w-[75%] mx-auto py-[10vw] tablet:w-[85%]\",\"children\":[[\"$\",\"div\",null,{\"className\":\"text-center\",\"children\":[[\"$\",\"h4\",null,{\"className\":\"leading-[1.2] text-[3.5vw] mobile:text-4xl tablet:text-[7vw] font-medium mb-3 font-heading title-anim\",\"children\":[\"Nivaro's Internship\",[\"$\",\"span\",null,{\"className\":\"text-primary\",\"children\":\" Program\"}]]}],[\"$\",\"p\",null,{\"className\":\"w-1/2 tablet:w-full mx-auto text-black2 text-xl tablet:text-2xl mobile:text-xl tracking-wide para-anim\",\"children\":\"Intern with the Digital Pioneers: Unlock Your Potential \u0026 Ignite Your Career with Hands-On Experience in the Digital Frontier. Real Projects, Real Impact!\"}]]}],[\"$\",\"div\",null,{\"className\":\"mt-20 grid grid-cols-3 gap-[2.5%] tablet:grid-cols-2 tablet:gap-8 mobile:grid-cols-1\",\"children\":[[\"$\",\"div\",\"0\",{\"className\":\"w-full h-full fadeup\",\"children\":[\"$\",\"$L1e\",null,{\"href\":\"/careers/management-trainee-growth-marketing\",\"className\":\"relative shadow-lg px-7 py-10 space-y-10 duration-300 rounded-2xl dark:bg-white2 hover:bg-white group grid grid-rows-[auto auto auto auto] h-full tablet:space-y-8 \",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-start gap-[1vw] mobile:gap-4\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-[5vw] tablet:w-[10vw] mobile:w-[18vw]\",\"alt\":\"Career Listing Image\",\"src\":\"https://cdn.sanity.io/images/gzupotgr/production/f79cd1d01686450325921bc3f029938166f3ea0b-256x256.webp\",\"width\":100,\"height\":100}],[\"$\",\"h5\",null,{\"className\":\"font-medium text-2xl font-heading group-hover:underline\",\"children\":\"Management Trainee – Growth \u0026 Marketing\"}]]}],[\"$\",\"div\",null,{\"className\":\"text-lg leading-[1.2]\",\"dangerouslySetInnerHTML\":{\"__html\":\"Kickstart your digital marketing career with an internship at Nivaro Digital.\"}}],[\"$\",\"div\",null,{\"className\":\"mb-2\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex items-center gap-4 h-full\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col h-full justify-between pb-1 gap-2\",\"children\":[[\"$\",\"div\",\"0\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-1.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"Part Time\"}]]}],[\"$\",\"div\",\"1\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-2.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"Flexible Hours\"}]]}],[\"$\",\"div\",\"2\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-3.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"On-site \"}]]}],[\"$\",\"div\",\"3\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-4.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"3 months\"}]]}]]}]}]}],[\"$\",\"div\",null,{\"className\":\"block group-hover:bg-primary h-fit group-hover:shadow-lg duration-300 text-primary group-hover:text-white border-primary border-2 rounded-full py-2 px-10 tablet:py-3 tablet:px-6\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex gap-3 items-center justify-center h-fit\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-medium text-xl tablet:text-2xl mobile:text-xl\",\"children\":\"View Details\"}],[\"$\",\"svg\",null,{\"className\":\"w-7 h-7\",\"viewBox\":\"0 0 24 24\",\"fill\":\"currentColor\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"children\":[\"$\",\"g\",null,{\"id\":\"style=stroke\",\"children\":[\"$\",\"g\",null,{\"id\":\"arrow-long-right\",\"children\":[[\"$\",\"path\",null,{\"id\":\"vector (Stroke)\",\"fillRule\":\"evenodd\",\"clipRule\":\"evenodd\",\"d\":\"M1.94995 12C1.94995 12.4142 2.28574 12.75 2.69995 12.75L21.2 12.75C21.6142 12.75 21.95 12.4142 21.95 12C21.95 11.5858 21.6142 11.25 21.2 11.25L2.69995 11.25C2.28574 11.25 1.94995 11.5858 1.94995 12Z\"}],[\"$\",\"path\",null,{\"id\":\"vector (Stroke)_2\",\"fillRule\":\"evenodd\",\"clipRule\":\"evenodd\",\"d\":\"M14.1696 4.46967C13.8767 4.76256 13.8767 5.23744 14.1696 5.53033L20.4625 11.8232C20.5601 11.9209 20.5601 12.0791 20.4625 12.1768L14.1696 18.4697C13.8767 18.7626 13.8767 19.2374 14.1696 19.5303C14.4625 19.8232 14.9374 19.8232 15.2303 19.5303L21.5232 13.2374C22.2066 12.554 22.2066 11.446 21.5232 10.7626L15.2303 4.46967C14.9374 4.17678 14.4625 4.17678 14.1696 4.46967Z\"}]]}]}]}]]}]}],[\"$\",\"div\",null,{\"className\":\"absolute text-lg font-heading top-4 right-4 text-white px-2 rounded !mt-0 job-Urgent\",\"children\":[\"$\",\"span\",null,{\"children\":\"Urgent\"}]}]]}]}],[\"$\",\"div\",\"1\",{\"className\":\"w-full h-full fadeup\",\"children\":[\"$\",\"$L1e\",null,{\"href\":\"/careers/motion-graphic-designer\",\"className\":\"relative shadow-lg px-7 py-10 space-y-10 duration-300 rounded-2xl dark:bg-white2 hover:bg-white group grid grid-rows-[auto auto auto auto] h-full tablet:space-y-8 \",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center justify-start gap-[1vw] mobile:gap-4\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-[5vw] tablet:w-[10vw] mobile:w-[18vw]\",\"alt\":\"Career Listing Image\",\"src\":\"https://cdn.sanity.io/images/gzupotgr/production/2f365fc4d7960d4fc3280bb3ca00bee19e8f18f1-256x256.webp\",\"width\":100,\"height\":100}],[\"$\",\"h5\",null,{\"className\":\"font-medium text-2xl font-heading group-hover:underline\",\"children\":\"Motion \u0026 Graphic Designer\"}]]}],[\"$\",\"div\",null,{\"className\":\"text-lg leading-[1.2]\",\"dangerouslySetInnerHTML\":{\"__html\":\"Kickstart your motion and graphic design career with an internship at Nivaro Digital.\"}}],[\"$\",\"div\",null,{\"className\":\"mb-2\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex items-center gap-4 h-full\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col h-full justify-between pb-1 gap-2\",\"children\":[[\"$\",\"div\",\"0\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-1.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"Part Time \"}]]}],[\"$\",\"div\",\"1\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-2.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"Flexible Hours \"}]]}],[\"$\",\"div\",\"2\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-3.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"On-site  \"}]]}],[\"$\",\"div\",\"3\",{\"className\":\"flex items-center gap-3\",\"children\":[[\"$\",\"$L1f\",null,{\"className\":\"w-6 h-6\",\"src\":\"/assets/career/benefit-4.svg\",\"alt\":\"Benefit Icon\",\"width\":15,\"height\":15}],[\"$\",\"span\",null,{\"className\":\"text-lg text-black2\",\"children\":\"4 months\"}]]}]]}]}]}],[\"$\",\"div\",null,{\"className\":\"block group-hover:bg-primary h-fit group-hover:shadow-lg duration-300 text-primary group-hover:text-white border-primary border-2 rounded-full py-2 px-10 tablet:py-3 tablet:px-6\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex gap-3 items-center justify-center h-fit\",\"children\":[[\"$\",\"span\",null,{\"className\":\"font-medium text-xl tablet:text-2xl mobile:text-xl\",\"children\":\"View Details\"}],[\"$\",\"svg\",null,{\"className\":\"w-7 h-7\",\"viewBox\":\"0 0 24 24\",\"fill\":\"currentColor\",\"xmlns\":\"http://www.w3.org/2000/svg\",\"children\":[\"$\",\"g\",null,{\"id\":\"style=stroke\",\"children\":[\"$\",\"g\",null,{\"id\":\"arrow-long-right\",\"children\":[[\"$\",\"path\",null,{\"id\":\"vector (Stroke)\",\"fillRule\":\"evenodd\",\"clipRule\":\"evenodd\",\"d\":\"M1.94995 12C1.94995 12.4142 2.28574 12.75 2.69995 12.75L21.2 12.75C21.6142 12.75 21.95 12.4142 21.95 12C21.95 11.5858 21.6142 11.25 21.2 11.25L2.69995 11.25C2.28574 11.25 1.94995 11.5858 1.94995 12Z\"}],[\"$\",\"path\",null,{\"id\":\"vector (Stroke)_2\",\"fillRule\":\"evenodd\",\"clipRule\":\"evenodd\",\"d\":\"M14.1696 4.46967C13.8767 4.76256 13.8767 5.23744 14.1696 5.53033L20.4625 11.8232C20.5601 11.9209 20.5601 12.0791 20.4625 12.1768L14.1696 18.4697C13.8767 18.7626 13.8767 19.2374 14.1696 19.5303C14.4625 19.8232 14.9374 19.8232 15.2303 19.5303L21.5232 13.2374C22.2066 12.554 22.2066 11.446 21.5232 10.7626L15.2303 4.46967C14.9374 4.17678 14.4625 4.17678 14.1696 4.46967Z\"}]]}]}]}]]}]}],[\"$\",\"div\",null,{\"className\":\"absolute text-lg font-heading top-4 right-4 text-white px-2 rounded !mt-0 job-Urgent\",\"children\":[\"$\",\"span\",null,{\"children\":\"Urgent\"}]}]]}]}]]}]]}]}]]}],[\"$\",\"$L20\",null,{\"greaterThan\":\"tablet\",\"children\":[\"$\",\"$L4\",null,{}]}]]}],[\"$\",\"$L21\",null,{}]]}]],[\"$\",\"$L22\",null,{\"loaderText\":\"Careers At Nivaro\"}]]\n"])</script>
+<script src="quantum-rtl.js"></script>
+    <script src="careers-quantum-rtl.js"></script>
+</body>
+<!-- Mirrored from wearenivaro.com/careers by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 24 Aug 2025 15:46:29 GMT -->
+
+</html>

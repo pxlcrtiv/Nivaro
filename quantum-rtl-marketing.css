@@ -1,0 +1,136 @@
+/* Quantum-Level RTL CSS for Marketing Psychology Page */
+/* Target: Hebrew native speakers (Nivaro brand) */
+/* Implementation: Quantum particle-wave behavior principles */
+
+/* Global RTL settings */
+.quantum-rtl-zone {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: isolate;
+}
+
+/* Marketing psychology article specific RTL styles */
+.prose {
+  direction: rtl;
+  text-align: right;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  text-align: right;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.prose p {
+  text-align: right;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.prose ul, .prose ol {
+  padding-right: 1.5em;
+  padding-left: 0;
+}
+
+.prose li {
+  text-align: right;
+}
+
+/* Layout RTL adjustments */
+.flex.justify-between {
+  flex-direction: row-reverse;
+}
+
+/* Image RTL optimization */
+img {
+  float: right !important;
+  margin-right: 0 !important;
+  margin-left: 1em !important;
+}
+
+/* Code blocks RTL */
+code, pre {
+  direction: ltr;
+  unicode-bidi: embed;
+}
+
+/* Navigation RTL adjustments */
+.Header_wrapper__1yY2x {
+  direction: rtl;
+}
+
+.Header_contentLeft__LvrzL {
+  text-align: right;
+}
+
+.Header_navLinkItem__l2xbK {
+  direction: rtl;
+}
+
+/* Social media links RTL */
+.Header_socialItems__GV7GF {
+  direction: rtl;
+}
+
+/* Responsive RTL adjustments */
+@media (max-width: 768px) {
+  .prose {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
+
+/* Quantum animation effects for RTL content */
+@keyframes quantumRTLPulse {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(1px); }
+}
+
+.quantum-rtl-zone {
+  animation: quantumRTLPulse 5s infinite ease-in-out;
+}
+
+/* Floating elements RTL correction */
+.float-right {
+  float: left !important;
+}
+
+.float-left {
+  float: right !important;
+}
+
+/* Quantum-level text rendering optimization */
+.quantum-rtl-zone {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hebrew typography enhancements */
+.quantum-rtl-zone {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+}
+
+/* Table RTL support */
+table {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Blockquote RTL styling */
+blockquote {
+  border-right: 4px solid #5d5ad6;
+  border-left: none;
+  padding-right: 1em;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Form elements RTL */
+input, textarea, select {
+  direction: rtl;
+  text-align: right;
+}

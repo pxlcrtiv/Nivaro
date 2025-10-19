@@ -1,0 +1,96 @@
+/* Quantum RTL CSS for Delightful Digital Design Guide */
+:root {
+  --hebrew-font-family: 'Arial Hebrew', 'Times New Roman', serif;
+  --rtl-spacing: 1rem;
+}
+
+/* Base RTL styles */
+[dir="rtl"] {
+  font-family: var(--hebrew-font-family);
+  text-align: right;
+}
+
+/* Fix direction for code blocks and preformatted text */
+[dir="rtl"] pre,
+[dir="rtl"] code {
+  text-align: left;
+  direction: ltr;
+}
+
+/* Quantum RTL zone styles */
+.quantum-rtl-zone {
+  transition: all 0.3s ease;
+}
+
+/* Header adjustments */
+[dir="rtl"] .header-inner-container {
+  flex-direction: row-reverse;
+}
+
+/* Navigation adjustments */
+[dir="rtl"] .Header_contentLeft__LvrzL {
+  text-align: right;
+}
+
+/* Main content adjustments */
+[dir="rtl"] .prose {
+  text-align: right;
+}
+
+/* Left section adjustments */
+[dir="rtl"] .left-section-blog {
+  text-align: right;
+}
+
+/* Typography adjustments */
+[dir="rtl"] h1,
+[dir="rtl"] h2,
+[dir="rtl"] h3,
+[dir="rtl"] h4,
+[dir="rtl"] h5,
+[dir="rtl"] h6 {
+  text-align: right;
+}
+
+/* Image alignment */
+[dir="rtl"] img {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* List styles */
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+/* Button alignment */
+[dir="rtl"] .flex.items-center.justify-start {
+  justify-content: flex-end;
+}
+
+/* Social icons alignment */
+[dir="rtl"] .Header_socialItems__GV7GF {
+  flex-direction: row-reverse;
+}
+
+/* Menu button adjustment */
+[dir="rtl"] .Header_menuBtn__kYp93 {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+/* Logo positioning */
+[dir="rtl"] .logo {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  [dir="rtl"] .header-inner-container {
+    padding-right: var(--rtl-spacing);
+    padding-left: var(--rtl-spacing);
+  }
+}

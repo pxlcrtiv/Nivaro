@@ -1,0 +1,99 @@
+/* Quantum RTL CSS for technology-services.html */
+/* This stylesheet implements advanced RTL transformations following quantum principles */
+
+/* Global RTL transformations */
+:root {
+  --primary-text-align: right;
+  --secondary-text-align: left;
+  --main-direction: rtl;
+  --reverse-direction: ltr;
+  --quantum-transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+* {
+  text-align: var(--primary-text-align);
+  direction: var(--main-direction);
+}
+
+/* Header adjustments */
+header {
+  right: 0;
+  left: auto;
+  transform-origin: right center;
+}
+
+.header-inner-container {
+  flex-direction: row-reverse;
+}
+
+.logo {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* Navigation adjustments */
+.Header_navLinkItem__l2xbK {
+  direction: var(--main-direction);
+  text-align: var(--primary-text-align);
+}
+
+/* Hero section adjustments */
+h1 {
+  text-align: var(--primary-text-align);
+  transform-origin: right center;
+}
+
+/* Content section adjustments */
+#section-2 {
+  justify-content: flex-start;
+}
+
+#section-2 .w-\[65\%\] {
+  text-align: var(--primary-text-align);
+}
+
+/* Form elements RTL fixes */
+input, textarea, select {
+  text-align: var(--primary-text-align);
+  direction: var(--main-direction);
+}
+
+/* Mirroring for icons and graphics */
+img[alt*="Logo"],
+img[data-nimg="1"] {
+  transform: scaleX(1);
+}
+
+/* Tables and lists */
+ul, ol {
+  padding-right: 1.5em;
+  padding-left: 0;
+}
+
+/* Quantum-level adjustments for bidirectional text */
+[dir="rtl"] [lang="en"] {
+  direction: var(--reverse-direction);
+  unicode-bidi: embed;
+}
+
+/* Responsive quantum adjustments */
+@media (max-width: 768px) {
+  :root {
+    --quantum-responsive-transition: all 0.2s ease;
+  }
+  
+  h1 {
+    transform-origin: center right;
+  }
+}
+
+/* Quantum transition effects */
+.hero-anim, .fadeup, .para-anim {
+  transform-origin: right center;
+  transition: var(--quantum-transition);
+}
+
+/* Quantum RTL Observer targets */
+[data-quantum-rtl="observe"] {
+  transition: var(--quantum-transition);
+}

@@ -1,0 +1,154 @@
+/* Quantum-Level RTL Implementation for Cognitive Biases Ecommerce */
+/* Target: Hebrew native speakers */
+/* Brand: Nivaro */
+
+/* Universal RTL reset with quantum alignment */
+*[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+    unicode-bidi: embed;
+}
+
+/* Quantum RTL zone optimization */
+.quantum-rtl-zone {
+    direction: rtl;
+    text-align: right;
+    transform: perspective(1000px) rotateY(0deg);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+/* Header quantum RTL alignment */
+header.quantum-rtl-zone .header-inner-container {
+    flex-direction: row-reverse;
+}
+
+/* Navigation quantum RTL transformation */
+.Header_nav__IZBbc {
+    direction: rtl;
+}
+
+.Header_contentLeft__LvrzL {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* Article quantum RTL optimization */
+article.prose {
+    text-align: right;
+    direction: rtl;
+}
+
+/* Typography quantum RTL adjustments */
+h1, h2, h3, h4, h5, h6 {
+    text-align: right !important;
+    direction: rtl !important;
+}
+
+/* Layout quantum RTL flipping */
+.flex.justify-between {
+    flex-direction: row-reverse;
+}
+
+/* Left section blog quantum RTL transformation */
+.left-section-blog {
+    margin-right: 0;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* Image quantum RTL handling */
+img {
+    direction: ltr;
+}
+
+/* Button quantum RTL styling */
+button {
+    direction: rtl;
+}
+
+/* Social links quantum RTL alignment */
+.Header_socialItems__GV7GF {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+/* Responsive quantum RTL adjustments */
+@media (max-width: 768px) {
+    .quantum-rtl-zone {
+        transform: perspective(800px) rotateY(0deg);
+    }
+}
+
+@media (max-width: 480px) {
+    .quantum-rtl-zone {
+        transform: perspective(600px) rotateY(0deg);
+    }
+}
+
+/* Quantum RTL scroll optimization */
+body {
+    overflow-x: hidden;
+}
+
+/* Quantum RTL focus states */
+*:focus {
+    outline-offset: -2px;
+    outline: 2px solid #5d5ad6;
+}
+
+/* Quantum RTL hover effects */
+.en-main-link:hover,
+.en-link-under:hover {
+    transition: all 0.3s ease;
+    text-decoration: underline;
+}
+
+/* Quantum RTL animation fixes */
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Quantum RTL accessibility enhancements */
+[aria-label] {
+    direction: rtl;
+}
+
+/* Quantum RTL form elements */
+input, textarea, select {
+    text-align: right;
+    direction: rtl;
+}
+
+/* Quantum RTL table styling */
+table {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Quantum RTL list styling */
+ul, ol {
+    padding-right: 1.5em;
+    padding-left: 0;
+}
+
+/* Quantum RTL code block handling */
+code, pre {
+    direction: ltr;
+    text-align: left;
+    unicode-bidi: bidi-override;
+}
+
+/* Quantum RTL print styling */
+@media print {
+    * {
+        direction: rtl !important;
+        text-align: right !important;
+    }
+}

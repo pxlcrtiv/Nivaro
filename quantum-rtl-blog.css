@@ -1,0 +1,135 @@
+/* Quantum-Level RTL CSS for Nivaro Blog */
+
+/* Base RTL Styles */
+:root {
+    --rtl-margin-left: margin-right;
+    --rtl-margin-right: margin-left;
+    --rtl-padding-left: padding-right;
+    --rtl-padding-right: padding-left;
+    --rtl-border-left: border-right;
+    --rtl-border-right: border-left;
+    --rtl-float-left: float-right;
+    --rtl-float-right: float-left;
+    --rtl-text-align-left: text-align-right;
+    --rtl-text-align-right: text-align-left;
+    --rtl-transform-scale: scaleX(-1);
+}
+
+/* Blog-specific RTL Optimizations */
+#featured-post {
+    direction: rtl;
+    text-align: right;
+}
+
+#featured-post .flex {
+    flex-direction: row-reverse;
+}
+
+#featured-post .w-3/5 {
+    padding-right: 0;
+    padding-left: 8%;
+}
+
+/* Article grid RTL adjustments */
+.flex-wrap {
+    direction: rtl;
+}
+
+/* Category tags RTL styling */
+.px-\[2vw\] {
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+/* Navigation RTL adjustments */
+.Header_navLinkItem__l2xbK {
+    text-align: right;
+}
+
+.Header_contentHeadingSerial__xVuxD {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+/* Footer RTL adjustments */
+footer {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Image caption RTL */
+figcaption {
+    text-align: right;
+}
+
+/* Blockquote RTL styling */
+blockquote {
+    border-left: none;
+    border-right: 4px solid #5d5ad6;
+    padding-right: 1.5rem;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+/* List RTL styling */
+ul, ol {
+    padding-right: 1.5rem;
+    padding-left: 0;
+}
+
+/* Table RTL styling */
+table {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Responsive RTL adjustments */
+@media (max-width: 768px) {
+    #featured-post .flex {
+        flex-direction: column;
+    }
+    
+    #featured-post .w-3/5 {
+        padding-left: 0;
+    }
+}
+
+/* Quantum RTL Animation Fixes */
+.title-anim {
+    direction: ltr;
+    unicode-bidi: embed;
+}
+
+/* Bidirectional text handling */
+.bidi-text {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+/* Quantum RTL Observation Zones */
+.quantum-rtl-zone {
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.quantum-rtl-zone::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: -1;
+}
+
+/* RTL Scrollbar Styling */
+::-webkit-scrollbar {
+    direction: ltr;
+}
+
+/* Custom cursor RTL adjustments */
+[data-cursor-text] {
+    unicode-bidi: embed;
+}

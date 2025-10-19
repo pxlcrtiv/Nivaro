@@ -1,0 +1,46 @@
+/* Quantum RTL styles for Portfolio page */
+:root {
+  --quantum-rtl-primary: #5a5dd6;
+  --quantum-rtl-secondary: #7a7ddd;
+  --quantum-rtl-transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Base RTL adjustments */
+html[dir="rtl"] .portfolio-marquee {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Navigation adjustments for RTL */
+html[dir="rtl"] .Header_navLinkItem__l2xbK {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Portfolio grid adjustments */
+html[dir="rtl"] .portfolio-grid {
+  direction: rtl;
+}
+
+/* Image positioning fixes */
+html[dir="rtl"] img[alt="image"] {
+  transition: var(--quantum-rtl-transition);
+}
+
+/* Quantum transition effect */
+.quantum-rtl-transition * {
+  transition: var(--quantum-rtl-transition);
+}
+
+/* Animation adjustments for RTL */
+html[dir="rtl"] .anim {
+  animation-direction: reverse;
+}
+
+/* Responsive RTL adjustments */
+@media (max-width: 768px) {
+  html[dir="rtl"] .portfolio-marquee {
+    padding-right: 0;
+    padding-left: 2vw;
+  }
+}

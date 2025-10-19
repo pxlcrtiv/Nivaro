@@ -1,0 +1,117 @@
+/* Quantum-Level RTL CSS for LinkedIn Strategies Page */
+/* Optimized for Hebrew native speakers - Nivaro brand */
+
+/* Core RTL Layout */
+body {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Blog Content RTL */
+article.prose {
+  direction: rtl;
+  text-align: right;
+}
+
+article.prose h1,
+article.prose h2,
+article.prose h3,
+article.prose h4,
+article.prose h5,
+article.prose h6 {
+  direction: rtl;
+  text-align: right;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+article.prose p {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Left Section RTL Adjustment */
+.left-section-blog {
+  float: left;
+  right: auto;
+  left: 0;
+}
+
+/* Navigation RTL */
+.Header_navLinkItem__l2xbK {
+  text-align: right;
+}
+
+/* Icon RTL Adjustments */
+.showreel-btn span {
+  direction: rtl;
+}
+
+/* Social Icons RTL */
+.Header_socialItems__GV7GF {
+  direction: rtl;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+/* Responsive RTL Adjustments */
+@media (max-width: 768px) {
+  .Header_wrapper__1yY2x {
+    direction: rtl;
+    text-align: right;
+  }
+  
+  .left-section-blog {
+    position: static;
+    float: none;
+  }
+}
+
+/* Quantum RTL Optimizations */
+.quantum-rtl-zone {
+  position: relative;
+  direction: rtl;
+}
+
+/* Table RTL Support */
+table {
+  direction: rtl;
+}
+
+table th,
+table td {
+  text-align: right;
+}
+
+/* Lists RTL Support */
+ul,
+ol {
+  direction: rtl;
+  padding-right: 1.5em;
+  padding-left: 0;
+}
+
+/* Quote RTL Support */
+blockquote {
+  border-right: 4px solid #5d5ad6;
+  border-left: none;
+  padding-right: 1em;
+  padding-left: 0;
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* Button RTL Support */
+button {
+  direction: rtl;
+  text-align: center;
+}
+
+/* Form RTL Support */
+input,
+textarea,
+select {
+  direction: rtl;
+  text-align: right;
+}

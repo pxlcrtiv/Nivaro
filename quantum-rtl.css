@@ -1,346 +1,159 @@
-/**
- * Quantum RTL CSS - Nano-level transformations
- * Like Ant-Man shrinking to manipulate reality at the quantum scale
- * Each selector targets specific elements with quantum precision
- */
+/* Quantum-Level RTL CSS for Nivaro Hebrew Interface */
+/* Engineered for universal bidirectional harmony */
 
-/* Quantum Base States - The fundamental particles of RTL */
-[data-quantum-rtl="true"] {
-    direction: rtl !important;
-    unicode-bidi: embed !important;
-    text-align: right !important;
-    
-    /* Quantum transition states */
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    transform-origin: right center !important;
-}
-
-/* Quantum Text Particles - Manipulating individual characters */
-[data-quantum-rtl="true"] * {
-    text-shadow: 0.5px 0 0 rgba(0,0,0,0.1) !important; /* Hebrew text enhancement */
-    letter-spacing: -0.01em !important; /* Hebrew letter spacing */
-}
-
-/* Quantum Header Particles */
-[data-quantum-rtl="true"] header,
-[data-quantum-rtl="true"] .header,
-[data-quantum-rtl="true"] [class*="header"],
-[data-quantum-rtl="true"] [class*="Header"] {
-    direction: rtl !important;
-    text-align: right !important;
-}
-
-/* Quantum Navigation Atoms */
-[data-quantum-rtl="true"] nav,
-[data-quantum-rtl="true"] .nav,
-[data-quantum-rtl="true"] [class*="nav"],
-[data-quantum-rtl="true"] [class*="Nav"] {
-    flex-direction: row-reverse !important;
-}
-
-[data-quantum-rtl="true"] nav > *,
-[data-quantum-rtl="true"] .nav > *,
-[data-quantum-rtl="true"] [class*="nav"] > *,
-[data-quantum-rtl="true"] [class*="Nav"] > * {
-    margin-right: 0 !important;
-    margin-left: auto !important;
-}
-
-/* Quantum List Particles */
-[data-quantum-rtl="true"] ul,
-[data-quantum-rtl="true"] ol,
-[data-quantum-rtl="true"] li,
-[data-quantum-rtl="true"] [class*="list"],
-[data-quantum-rtl="true"] [class*="List"] {
-    padding-right: 1.5rem !important;
-    padding-left: 0 !important;
-    text-align: right !important;
-}
-
-/* add all quantum particles possible in the known quantum multidimentional universe
-
-/* Quantum Button Quarks */
-[data-quantum-rtl="true"] button,
-[data-quantum-rtl="true"] .button,
-[data-quantum-rtl="true"] [role="button"],
-[data-quantum-rtl="true"] [class*="button"],
-[data-quantum-rtl="true"] [class*="Button"] {
-    direction: rtl !important;
-    text-align: center !important;
-    
-    /* Quantum button hover states */
-    transform: translateX(0) !important;
-    transition: transform 0.2s ease-out !important;
-}
-
-[data-quantum-rtl="true"] button:hover,
-[data-quantum-rtl="true"] .button:hover {
-    transform: translateX(-2px) !important;
-}
-
-/* Quantum Form Elements - Subatomic particles */
-[data-quantum-rtl="true"] input,
-[data-quantum-rtl="true"] textarea,
-[data-quantum-rtl="true"] select,
-[data-quantum-rtl="true"] [class*="input"],
-[data-quantum-rtl="true"] [class*="form"] {
-    direction: rtl !important;
-    text-align: right !important;
-    unicode-bidi: plaintext !important;
-}
-
-/* Quantum Image Particles */
-[data-quantum-rtl="true"] img,
-[data-quantum-rtl="true"] [class*="img"],
-[data-quantum-rtl="true"] [class*="image"] {
-    transform-origin: right center !important;
-}
-
-/* Quantum Flexbox Dimensions */
-[data-quantum-rtl="true"] [class*="flex"] {
-    direction: rtl !important;
-}
-
-[data-quantum-rtl="true"] [class*="flex-row"]:not([class*="flex-row-reverse"]) {
-    flex-direction: row-reverse !important;
-}
-
-[data-quantum-rtl="true"] [class*="justify-start"] {
-    justify-content: flex-end !important;
-}
-
-[data-quantum-rtl="true"] [class*="justify-end"] {
-    justify-content: flex-start !important;
-}
-
-/* Quantum Grid Dimensions */
-[data-quantum-rtl="true"] [class*="grid"] {
-    direction: rtl !important;
-}
-
-/* Quantum Margin Particles */
-[data-quantum-rtl="true"] [class*="ml-"]:not([class*="ml-auto"]) {
-    margin-left: 0 !important;
-    margin-right: var(--quantum-ml-value, inherit) !important;
-}
-
-[data-quantum-rtl="true"] [class*="mr-"]:not([class*="mr-auto"]) {
-    margin-right: 0 !important;
-    margin-left: var(--quantum-mr-value, inherit) !important;
-}
-
-[data-quantum-rtl="true"] [class*="pl-"] {
-    padding-left: 0 !important;
-    padding-right: var(--quantum-pl-value, inherit) !important;
-}
-
-[data-quantum-rtl="true"] [class*="pr-"] {
-    padding-right: 0 !important;
-    padding-left: var(--quantum-pr-value, inherit) !important;
-}
-
-/* Quantum Position Dimensions */
-[data-quantum-rtl="true"] [class*="left-"] {
-    left: auto !important;
-    right: var(--quantum-left-value, 0) !important;
-}
-
-[data-quantum-rtl="true"] [class*="right-"] {
-    right: auto !important;
-    left: var(--quantum-right-value, 0) !important;
-}
-
-/* Quantum Text Alignment Dimensions */
-[data-quantum-rtl="true"] [class*="text-left"] {
-    text-align: right !important;
-}
-
-[data-quantum-rtl="true"] [class*="text-right"] {
-    text-align: left !important;
-}
-
-/* Quantum Float Dimensions */
-[data-quantum-rtl="true"] [class*="float-left"] {
-    float: right !important;
-}
-
-[data-quantum-rtl="true"] [class*="float-right"] {
-    float: left !important;
-}
-
-/* Quantum Border Radius Particles */
-[data-quantum-rtl="true"] [class*="rounded-l"] {
-    border-top-left-radius: 0 !important;
-    border-bottom-left-radius: 0 !important;
-    border-top-right-radius: var(--quantum-rounded-value, 4px) !important;
-    border-bottom-right-radius: var(--quantum-rounded-value, 4px) !important;
-}
-
-[data-quantum-rtl="true"] [class*="rounded-r"] {
-    border-top-right-radius: 0 !important;
-    border-bottom-right-radius: 0 !important;
-    border-top-left-radius: var(--quantum-rounded-value, 4px) !important;
-    border-bottom-left-radius: var(--quantum-rounded-value, 4px) !important;
-}
-
-/* Quantum Transform Particles */
-[data-quantum-rtl="true"] [style*="translateX("] {
-    transform: var(--quantum-transform-value, none) !important;
-}
-
-/* Quantum Typography - Hebrew-specific optimizations */
-[data-quantum-rtl="true"]:lang(he) {
-    font-family: 'Rubik', 'Arial Hebrew', 'Tahoma', sans-serif !important;
-    line-height: 1.6 !important;
-    letter-spacing: -0.02em !important;
-}
-
-/* Quantum Hebrew-specific particles */
-[data-quantum-rtl="true"] [lang="he"] {
-    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "hebr" 1 !important;
-    text-rendering: optimizeLegibility !important;
-    font-variant-ligatures: contextual !important;
-}
-
-/* Quantum Animation Particles */
-@keyframes quantum-rtl-enter {
-    from {
-        opacity: 0;
-        transform: translateX(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-[data-quantum-rtl="true"] {
-    animation: quantum-rtl-enter 0.3s ease-out !important;
-}
-
-/* Quantum Responsive Dimensions */
-@media (max-width: 768px) {
-    [data-quantum-rtl="true"] {
-        --quantum-mobile-multiplier: 0.8;
-    }
-    
-    [data-quantum-rtl="true"] [class*="ml-"] {
-        margin-right: calc(var(--quantum-ml-value, 0) * var(--quantum-mobile-multiplier, 1)) !important;
-    }
-    
-    [data-quantum-rtl="true"] [class*="mr-"] {
-        margin-left: calc(var(--quantum-mr-value, 0) * var(--quantum-mobile-multiplier, 1)) !important;
-    }
-}
-
-/* Quantum Dark Mode Dimensions */
-@media (prefers-color-scheme: dark) {
-    [data-quantum-rtl="true"] {
-        --quantum-text-shadow: 0.5px 0 0 rgba(255,255,255,0.1) !important;
-    }
-    
-    [data-quantum-rtl="true"] * {
-        text-shadow: var(--quantum-text-shadow, none) !important;
-    }
-}
-
-/* Quantum Accessibility Dimensions */
-@media (prefers-reduced-motion: reduce) {
-    [data-quantum-rtl="true"] {
-        transition: none !important;
-        animation: none !important;
-    }
-}
-
-/* Quantum Focus Visible Particles */
-[data-quantum-rtl="true"]:focus-visible {
-    outline: 2px solid #5d5ad6 !important;
-    outline-offset: 2px !important;
-    border-radius: 2px !important;
-}
-
-/* Quantum Selection Particles */
-[data-quantum-rtl="true"]::selection {
-    background-color: rgba(93, 90, 214, 0.3) !important;
-    color: inherit !important;
-}
-
-/* Quantum Scrollbar Dimensions */
-[data-quantum-rtl="true"]::-webkit-scrollbar {
-    direction: rtl !important;
-}
-
-[data-quantum-rtl="true"]::-webkit-scrollbar-track {
-    background: linear-gradient(to left, #f1f1f1, #e1e1e1) !important;
-}
-
-/* Quantum Print Dimensions */
-@media print {
-    [data-quantum-rtl="true"] {
-        direction: rtl !important;
-        text-align: right !important;
-    }
-}
-
-/* Quantum High Contrast Dimensions */
-@media (prefers-contrast: high) {
-    [data-quantum-rtl="true"] {
-        border-width: 2px !important;
-        text-shadow: none !important;
-    }
-}
-
-/* Quantum CSS Custom Properties for dynamic values */
 :root {
-    --quantum-rtl-direction: rtl;
-    --quantum-rtl-text-align: right;
-    --quantum-ml-value: inherit;
-    --quantum-mr-value: inherit;
-    --quantum-pl-value: inherit;
-    --quantum-pr-value: inherit;
-    --quantum-left-value: 0;
-    --quantum-right-value: 0;
-    --quantum-rounded-value: 4px;
-    --quantum-transform-value: none;
-    --quantum-mobile-multiplier: 1;
-    --quantum-text-shadow: 0.5px 0 0 rgba(0,0,0,0.1);
+  --rtl-direction: rtl;
+  --rtl-text-align: right;
+  --rtl-mirror: scaleX(-1);
+  --quantum-transition: all 0.3s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  --ni-text-align: right;
+  --ni-direction: rtl;
 }
 
-/* Quantum Utility Classes for manual control */
-.quantum-rtl-force {
-    direction: rtl !important;
-    text-align: right !important;
+/* Global RTL transformation */
+html {
+  direction: rtl;
 }
 
-.quantum-rtl-text {
-    unicode-bidi: plaintext !important;
-    text-align: right !important;
+body {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: embed;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.quantum-rtl-layout {
-    flex-direction: row-reverse !important;
+/* Core structural elements */
+header, nav, main, article, footer, section, div {
+  direction: rtl;
+  text-align: right;
 }
 
-.quantum-rtl-swap {
-    transform: scaleX(-1) !important;
+/* Typography RTL optimization */
+h1, h2, h3, h4, h5, h6, p, span, a {
+  text-align: right;
+  direction: rtl;
 }
 
-/* Quantum Debug Mode - Visualize transformations */
-.quantum-debug [data-quantum-rtl="true"] {
-    outline: 1px dashed rgba(93, 90, 214, 0.5) !important;
-    position: relative !important;
+a {
+  text-decoration: none;
 }
 
-.quantum-debug [data-quantum-rtl="true"]::after {
-    content: attr(data-quantum-id) !important;
-    position: absolute !important;
-    top: -20px !important;
-    right: 0 !important;
-    font-size: 10px !important;
-    color: #5d5ad6 !important;
-    background: rgba(255,255,255,0.9) !important;
-    padding: 2px 4px !important;
-    border-radius: 2px !important;
-    z-index: 9999 !important;
-    pointer-events: none !important;
+/* Flexbox directional reversal */
+.flex-row, .flex, .row {
+  flex-direction: row-reverse !important;
+}
+
+/* Grid RTL adjustments */
+.grid {
+  direction: rtl;
+}
+
+/* Navigation menu RTL fixes */
+nav ul, .nav-menu, .menu-list {
+  direction: rtl;
+}
+
+nav ul li, .nav-item, .menu-item {
+  float: right;
+}
+
+/* Form elements RTL optimization */
+input, textarea, select, button {
+  text-align: right;
+  direction: rtl;
+}
+
+label {
+  text-align: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/* Tables RTL transformation */
+table {
+  text-align: right;
+  direction: rtl;
+}
+
+th, td {
+  text-align: right;
+}
+
+/* Lists RTL adjustments */
+ul, ol {
+  padding-right: 20px;
+  padding-left: 0;
+}
+
+li {
+  text-align: right;
+}
+
+/* Icon and image mirroring for RTL */
+.mirror-icon, .arrow, .icon-left, .icon-arrow-left {
+  transform: var(--rtl-mirror);
+}
+
+/* Button text alignment */
+.btn, button {
+  text-align: center;
+}
+
+/* Code blocks - preserve LTR for technical content */
+pre, code, .code-block, .monospace {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: bidi-override;
+}
+
+/* Bidirectional text handling for mixed content */
+[data-bidi="auto"] {
+  unicode-bidi: plaintext;
+}
+
+.quantum-rtl-optimized {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl;
+}
+
+/* Responsive RTL adjustments */
+@media (max-width: 768px) {
+  .Header_wrapper, .nav-container, .footer-container {
+    flex-direction: column-reverse !important;
+  }
+  
+  .mobile-menu {
+    text-align: right;
+    direction: rtl;
+  }
+}
+
+/* Nivaro-specific RTL optimizations */
+.nivaro-header, .nivaro-footer {
+  direction: rtl;
+  text-align: right;
+}
+
+.nivaro-logo {
+  float: right;
+}
+
+/* Animation and transition for quantum-level responsiveness */
+.quantum-rtl-transition {
+  transition: var(--quantum-transition);
+}
+
+/* Fix for dropdown menus */
+.dropdown-menu, .submenu {
+  right: 0;
+  left: auto;
+  text-align: right;
+  direction: rtl;
+}
+
+/* Fix for tooltips */
+.tooltip {
+  text-align: right;
+  direction: rtl;
 }

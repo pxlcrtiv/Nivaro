@@ -1,0 +1,241 @@
+/* Quantum RTL Styles for Power Remote Designers Page */
+/* Advanced CSS for right-to-left language support with quantum-inspired effects */
+
+/* Base RTL adjustments */
+.quantum-rtl {
+  direction: rtl;
+  text-align: right;
+  --primary-direction: rtl;
+  --main-text-align: right;
+  --opposite-direction: ltr;
+}
+
+/* Quantum RTL - Power Remote Designers specific styles */
+.power-remote-designers-rtl {
+  /* Custom quantum variables for this specific page */
+  --quantum-skew: -1deg;
+  --quantum-flip-threshold: 50vh;
+  --quantum-transition-speed: 0.4s;
+}
+
+/* Header adjustments for RTL */
+.quantum-rtl header.fixed {
+  left: initial;
+  right: 0;
+  transform-origin: top right;
+}
+
+.quantum-rtl .header-inner-container {
+  flex-direction: row-reverse;
+}
+
+.quantum-rtl .logo {
+  margin-right: 0;
+  margin-left: auto;
+}
+
+/* Navigation adjustments */
+.quantum-rtl .Header_wrapper__1yY2x {
+  flex-direction: row-reverse;
+}
+
+.quantum-rtl .Header_contentLeft__LvrzL {
+  margin-right: 0;
+  margin-left: 10vw;
+}
+
+.quantum-rtl .Header_navLinkItem__l2xbK {
+  text-align: right;
+  direction: rtl;
+}
+
+.quantum-rtl .Header_contentHeadingSerial__xVuxD {
+  margin-left: 1vw;
+  margin-right: 0;
+}
+
+/* Main content adjustments */
+.quantum-rtl article.prose {
+  direction: rtl;
+  text-align: right;
+}
+
+.quantum-rtl .blog-title-anim {
+  text-align: right;
+  transform-origin: top right;
+}
+
+/* Sidebar adjustments */
+.quantum-rtl .left-section-blog {
+  position: sticky;
+  left: 0;
+  right: initial;
+  text-align: right;
+}
+
+.quantum-rtl .left-section-blog p {
+  text-align: right;
+  direction: rtl;
+}
+
+/* Image adjustments */
+.quantum-rtl img:not(.header-logo):not(.dark\:invert) {
+  margin-right: 0;
+  margin-left: 1rem;
+  border-radius: 0.5rem;
+  transition: all var(--quantum-transition-speed) ease;
+}
+
+.quantum-rtl img:hover {
+  transform: scale(1.01) rotate(var(--quantum-skew));
+}
+
+/* Social media icons adjustment */
+.quantum-rtl .Header_socialItems__GV7GF {
+  flex-direction: row-reverse;
+}
+
+.quantum-rtl .Header_socialItem__GseNS {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+/* Button adjustments */
+.quantum-rtl button, 
+.quantum-rtl .showreel-btn {
+  text-align: right;
+  direction: rtl;
+  transform-origin: center right;
+}
+
+/* Quantum mirror effect for specific elements */
+.quantum-rtl .Header_line__pxxLV {
+  transform-origin: right center;
+}
+
+/* Form adjustments (if any exist) */
+.quantum-rtl input, 
+.quantum-rtl textarea, 
+.quantum-rtl select {
+  direction: rtl;
+  text-align: right;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+
+/* Table adjustments (if any exist) */
+.quantum-rtl table {
+  direction: rtl;
+}
+
+.quantum-rtl th, 
+.quantum-rtl td {
+  text-align: right;
+}
+
+/* Code blocks - keep LTR for readability */
+.quantum-rtl code, 
+.quantum-rtl pre {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: embed;
+}
+
+/* Quantum animation keyframes */
+@keyframes quantumFadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes quantumPulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+/* Apply quantum animations to specific elements */
+.quantum-rtl h1, 
+.quantum-rtl h2, 
+.quantum-rtl h3 {
+  animation: quantumFadeIn 0.5s ease-out forwards;
+}
+
+.quantum-rtl .Header_navLink__wkFKz {
+  animation: quantumFadeIn 0.5s ease-out forwards;
+}
+
+/* Interactive elements quantum effects */
+.quantum-rtl a, 
+.quantum-rtl button, 
+.quantum-rtl [data-cursor-size] {
+  position: relative;
+  overflow: hidden;
+}
+
+.quantum-rtl a::after, 
+.quantum-rtl button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: rgba(93, 90, 214, 0.1);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.quantum-rtl a:hover::after, 
+.quantum-rtl button:hover::after {
+  width: 300px;
+  height: 300px;
+}
+
+/* Responsive quantum RTL adjustments */
+@media (max-width: 768px) {
+  .quantum-rtl .Header_contentLeft__LvrzL {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .quantum-rtl .left-section-blog {
+    position: static;
+    width: 100%;
+  }
+  
+  .quantum-rtl article.prose {
+    padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .quantum-rtl .flex {
+    flex-direction: column;
+  }
+  
+  .quantum-rtl .Header_socialItems__GV7GF {
+    justify-content: center;
+  }
+}
+
+/* Quantum RTL specific print styles */
+@media print {
+  .quantum-rtl {
+    direction: rtl !important;
+    text-align: right !important;
+  }
+  
+  .quantum-rtl .flex {
+    flex-direction: row-reverse;
+  }
+}

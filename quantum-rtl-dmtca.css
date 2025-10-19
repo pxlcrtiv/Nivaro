@@ -1,0 +1,115 @@
+/* Quantum RTL Styles for DMTCA Digital Branding Case Study */
+/* Optimized for Hebrew language and right-to-left reading patterns */
+
+/* Core quantum-rtl-zone styling */
+.quantum-rtl-zone {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Typography adjustments */
+.quantum-rtl-zone h1,
+.quantum-rtl-zone h2,
+.quantum-rtl-zone h3,
+.quantum-rtl-zone h4,
+.quantum-rtl-zone h5,
+.quantum-rtl-zone h6 {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Navigation adjustments */
+.quantum-rtl-zone .Header_wrapper__1yY2x {
+  flex-direction: row-reverse;
+}
+
+/* Layout adjustments */
+.quantum-rtl-zone .flex {
+  flex-direction: row-reverse;
+}
+
+/* Text alignment */
+.quantum-rtl-zone p,
+.quantum-rtl-zone a,
+.quantum-rtl-zone span {
+  text-align: right;
+  direction: rtl;
+}
+
+/* Margin and padding corrections */
+.quantum-rtl-zone .ml-4,
+.quantum-rtl-zone .ml-8 {
+  margin-right: inherit;
+  margin-left: 0;
+}
+
+.quantum-rtl-zone .mr-4,
+.quantum-rtl-zone .mr-8 {
+  margin-left: inherit;
+  margin-right: 0;
+}
+
+.quantum-rtl-zone .pl-4,
+.quantum-rtl-zone .pl-8 {
+  padding-right: inherit;
+  padding-left: 0;
+}
+
+.quantum-rtl-zone .pr-4,
+.quantum-rtl-zone .pr-8 {
+  padding-left: inherit;
+  padding-right: 0;
+}
+
+/* Arrow and directional icon adjustments */
+.quantum-rtl-zone img[src*="arrow-right"] {
+  transform: rotate(180deg);
+}
+
+/* Client section adjustments */
+#client-section .flex {
+  flex-direction: row-reverse;
+}
+
+/* Hero section adjustments */
+#hero .flex {
+  flex-direction: row-reverse;
+}
+
+/* Ensure proper text flow */
+.quantum-rtl-zone blockquote {
+  border-left: none;
+  border-right: 4px solid #5d5ad6;
+  padding-right: 1rem;
+  padding-left: 0;
+}
+
+/* Adjust lists for RTL */
+.quantum-rtl-zone ul,
+.quantum-rtl-zone ol {
+  padding-right: 1.5rem;
+  padding-left: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .quantum-rtl-zone .flex {
+    flex-direction: column;
+  }
+}
+
+/* Quantum-level RTL animations and transitions */
+@keyframes quantum-rtl-fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.quantum-rtl-zone {
+  animation: quantum-rtl-fadeIn 0.6s ease-out;
+}

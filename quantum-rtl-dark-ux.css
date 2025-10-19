@@ -1,0 +1,119 @@
+/* Quantum-Level RTL Implementation for Dark UX Deceptive Design Practices */
+/* Optimized for Hebrew native speakers with Nivaro brand styling */
+
+/* Root RTL configuration */
+.quantum-rtl-zone {
+    direction: rtl;
+    text-align: right;
+    unicode-bidi: embed;
+}
+
+/* Blog article container */
+.prose.quantum-rtl-zone {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Heading styles */
+.quantum-rtl-zone h1,
+.quantum-rtl-zone h2,
+.quantum-rtl-zone h3,
+.quantum-rtl-zone h4 {
+    text-align: right;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* Paragraph styling */
+.quantum-rtl-zone p {
+    text-align: right;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* Left sidebar adjustments for RTL */
+.left-section-blog {
+    text-align: right;
+    padding-right: 0;
+    padding-left: 2rem;
+}
+
+/* Image container adjustments */
+.quantum-rtl-zone img {
+    margin-right: auto;
+    margin-left: 0;
+}
+
+/* Table of contents or navigation */
+.quantum-rtl-zone ul,
+.quantum-rtl-zone ol {
+    text-align: right;
+    padding-right: 1.5rem;
+    padding-left: 0;
+}
+
+/* Blockquote adjustments */
+.quantum-rtl-zone blockquote {
+    border-right: 4px solid #5d5ad6;
+    border-left: none;
+    padding-right: 1rem;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* Code block adjustments */
+.quantum-rtl-zone pre {
+    text-align: left;
+    direction: ltr;
+}
+
+/* Social sharing buttons */
+.quantum-rtl-zone .flex.items-center.justify-start {
+    justify-content: flex-end;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .left-section-blog {
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    
+    .quantum-rtl-zone .flex.justify-between {
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+}
+
+/* Quantum state management for dynamic content */
+.quantum-rtl-zone [data-observed="true"] {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Footer adjustments */
+.quantum-rtl-zone .footer {
+    text-align: right;
+}
+
+/* Form elements for RTL */
+.quantum-rtl-zone input,
+.quantum-rtl-zone textarea,
+.quantum-rtl-zone select {
+    text-align: right;
+}
+
+/* Meta information */
+.quantum-rtl-zone .article-meta {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* Print styles for RTL */
+@media print {
+    .quantum-rtl-zone {
+        direction: rtl;
+        text-align: right;
+    }
+}

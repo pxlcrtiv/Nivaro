@@ -1,0 +1,110 @@
+/* Quantum RTL Styles for Essential Link Building Guide */
+/* Generated: $(date) */
+
+/* Hebrew Typography Optimization */
+@font-face {
+  font-family: 'Ageo Hebrew';
+  src: local('Ageo'), local('Ageo-Regular');
+  font-display: swap;
+}
+
+/* Quantum RTL Core Properties */
+.quantum-rtl-zone {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: isolate;
+}
+
+/* Quantum Flip Elements */
+.quantum-rtl-zone .flex-row {
+  flex-direction: row-reverse;
+}
+
+.quantum-rtl-zone .justify-between {
+  justify-content: space-between;
+}
+
+.quantum-rtl-zone .text-left {
+  text-align: right;
+}
+
+.quantum-rtl-zone .text-right {
+  text-align: left;
+}
+
+.quantum-rtl-zone .float-left {
+  float: right;
+}
+
+.quantum-rtl-zone .float-right {
+  float: left;
+}
+
+.quantum-rtl-zone .mr- {
+  margin-right: 0;
+  margin-left: var(--margin-value);
+}
+
+.quantum-rtl-zone .ml- {
+  margin-left: 0;
+  margin-right: var(--margin-value);
+}
+
+.quantum-rtl-zone .pl- {
+  padding-left: 0;
+  padding-right: var(--padding-value);
+}
+
+.quantum-rtl-zone .pr- {
+  padding-right: 0;
+  padding-left: var(--padding-value);
+}
+
+/* Quantum Navigation Adjustments */
+.quantum-rtl-zone .Header_contentLeft__LvrzL {
+  text-align: right;
+}
+
+.quantum-rtl-zone .Header_navLinkItem__l2xbK {
+  direction: rtl;
+}
+
+/* Quantum Blog Layout Adjustments */
+.quantum-rtl-zone .blog-title-anim {
+  text-align: right;
+}
+
+.quantum-rtl-zone .left-section-blog {
+  text-align: right;
+}
+
+/* Quantum Mirror Effect for UI Elements */
+.quantum-rtl-zone .mirror-in-rtl {
+  transform: scaleX(-1);
+}
+
+/* Quantum RTL Responsive Adjustments */
+@media (max-width: 768px) {
+  .quantum-rtl-zone .mobile\:flex-row {
+    flex-direction: row-reverse;
+  }
+}
+
+/* Quantum RTL Accessibility Enhancements */
+[dir="rtl"] [aria-label*="left"]:not(.no-rtl-adjust),
+[dir="rtl"] [aria-label*="Left"]:not(.no-rtl-adjust) {
+  aria-label: attr(aria-label) " (Reversed for RTL)";
+}
+
+/* Quantum BiDi Isolation */
+.quantum-rtl-zone [lang="en"] {
+  direction: ltr;
+  text-align: left;
+  display: inline-block;
+}
+
+/* Quantum Performance Optimizations */
+.quantum-rtl-zone {
+  will-change: transform;
+  contain: layout style paint;
+}

@@ -1,0 +1,103 @@
+/* Quantum RTL CSS for Top UX Design Blogs Page */
+/* This stylesheet implements advanced RTL transformations at the quantum level */
+
+:root {
+    --rtl-direction: rtl;
+    --rtl-text-align: right;
+    --rtl-mirror: scaleX(-1);
+    --quantum-rtl-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+/* Global RTL transformations */
+html[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Header RTL adjustments */
+html[dir="rtl"] .header-inner-container {
+    flex-direction: row-reverse;
+}
+
+html[dir="rtl"] .Header_contentLeft__LvrzL {
+    text-align: right;
+}
+
+html[dir="rtl"] .Header_contentRight__yfhGM {
+    text-align: right;
+}
+
+/* Main content RTL adjustments */
+html[dir="rtl"] .prose {
+    text-align: right;
+    direction: rtl;
+}
+
+html[dir="rtl"] h1, 
+html[dir="rtl"] h2, 
+html[dir="rtl"] h3, 
+html[dir="rtl"] h4, 
+html[dir="rtl"] h5, 
+html[dir="rtl"] h6 {
+    text-align: right;
+}
+
+html[dir="rtl"] .blog-title-anim {
+    text-align: right;
+}
+
+/* Navigation and menu RTL adjustments */
+html[dir="rtl"] .Header_nav__IZBbc {
+    direction: rtl;
+}
+
+html[dir="rtl"] .Header_menuSvg path {
+    transform: scaleX(-1);
+}
+
+/* Form elements RTL */
+html[dir="rtl"] input,
+html[dir="rtl"] textarea,
+html[dir="rtl"] select {
+    text-align: right;
+}
+
+/* Quantum level RTL fixes for specific components */
+html[dir="rtl"] .left-section-blog {
+    text-align: right;
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .tablet\:flex-col {
+    flex-direction: column;
+}
+
+/* Footer RTL adjustments */
+html[dir="rtl"] footer {
+    text-align: right;
+    direction: rtl;
+}
+
+/* Quantum RTL transition effects */
+.quantum-rtl-transition {
+    transition: var(--quantum-rtl-transition);
+}
+
+/* Bidirectional text handling */
+.bidi-text {
+    unicode-bidi: plaintext;
+}
+
+/* Responsive RTL adjustments */
+@media (max-width: 768px) {
+    html[dir="rtl"] .mobile\:text-\[5\.8vw\] {
+        text-align: right;
+    }
+}
+
+/* Quantum RTL fix for mirrored icons and graphics */
+.quantum-mirror {
+    transform: var(--rtl-mirror);
+}
